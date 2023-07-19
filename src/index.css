@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: 'Eudoxus Sans';
+    font-weight: 400;
+    src: url(./fonts/EudoxusSans-Regular.woff2);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: 'Eudoxus Sans';
+    font-weight: 500;
+    src: url(./fonts/EudoxusSans-Medium.woff2);
+}
+@font-face {
+    font-family: 'Eudoxus Sans';
+    font-weight: 700;
+    src: url(./fonts/EudoxusSans-Bold.woff2);
+}
+html,
+body,
+#root,
+.app {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    font-family: "Eudoxus Sans", sans-serif;
 }
