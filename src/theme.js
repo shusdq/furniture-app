@@ -64,31 +64,37 @@ export const theme = createTheme({
             fontFamily: ['Eudoxus Sans', 'sans-serif'].join(','),
             fontSize: 64,
             fontWeight: 700,
+            lineHeight: '130%',
         },
         h2: {
             fontFamily: ['Eudoxus Sans', 'sans-serif'].join(','),
             fontSize: 44,
             fontWeight: 700,
+            lineHeight: '130%',
         },
         h3: {
             fontFamily: ['Eudoxus Sans', 'sans-serif'].join(','),
             fontSize: 24,
             fontWeight: 700,
+            lineHeight: '130%',
         },
         h4: {
             fontFamily: ['Eudoxus Sans', 'sans-serif'].join(','),
             fontSize: 20,
             fontWeight: 700,
+            lineHeight: '130%',
         },
         h5: {
             fontFamily: ['Eudoxus Sans', 'sans-serif'].join(','),
             fontSize: 18,
             fontWeight: 700,
+            lineHeight: '130%',
         },
         h6: {
             fontFamily: ['Eudoxus Sans', 'sans-serif'].join(','),
             fontSize: 16,
             fontWeight: 700,
+            lineHeight: '130%',
         },
     },
 });
