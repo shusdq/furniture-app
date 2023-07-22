@@ -40,7 +40,7 @@ function ResponsiveAppBar() {
         <AppBar position="static" sx={{ backgroundColor: '#fff', borderBottom: '2px solid #F3F3F3' }}>
             <Container maxWidth="lg">
                 <Toolbar disableGutters>
-                    <SvgIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
+                    <SvgIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} style={{ width: '42', height: '42' }}>
                         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="Frame" clipPath="url(#clip0_2_5593)">
                                 <path id="Vector" d="M42 0H0V42H42V0Z" fill="white" />
