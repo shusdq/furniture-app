@@ -13,11 +13,13 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import { SvgIcon } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const pages = ['Products', 'Services', 'Article', 'About Us'];
 const settings = ['Logout'];
 
 function ResponsiveAppBar() {
+    const navigate = useNavigate();
     const [anchorElNav, setAnchorElNav] = useState(null);
     const [anchorElUser, setAnchorElUser] = useState(null);
 
@@ -58,14 +60,15 @@ function ResponsiveAppBar() {
                     <Typography
                         variant="h4"
                         noWrap
-                        component="a"
-                        href="/"
+                        onClick={() => {
+                            navigate('/');
+                        }}
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
                             fontWeight: 700,
                             color: 'inherit',
-                            textDecoration: 'none',
+                            cursor: 'pointer',
                         }}
                     >
                         Lalasia
@@ -93,11 +96,25 @@ function ResponsiveAppBar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            {pages.map(page => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
+                            <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography
+                                    textAlign="center"
+                                    onClick={() => {
+                                        navigate('/products');
+                                    }}
+                                >
+                                    Products
+                                </Typography>
+                            </MenuItem>
+                            <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">Services</Typography>
+                            </MenuItem>
+                            <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">Article</Typography>
+                            </MenuItem>
+                            <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">About Us</Typography>
+                            </MenuItem>
                         </Menu>
                     </Box>
                     <SvgIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }}>
@@ -118,25 +135,39 @@ function ResponsiveAppBar() {
                     <Typography
                         variant="h5"
                         noWrap
-                        component="a"
-                        href=""
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
                             flexGrow: 1,
                             fontWeight: 700,
                             color: 'inherit',
-                            textDecoration: 'none',
+                            cursor: 'pointer',
+                        }}
+                        onClick={() => {
+                            navigate('/');
                         }}
                     >
                         Lalasia
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'center', gap: '50px' } }}>
-                        {pages.map(page => (
-                            <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
-                                {page}
-                            </Button>
-                        ))}
+                        <Button
+                            onClick={() => {
+                                navigate('/products');
+                            }}
+                            sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                        >
+                            Products
+                        </Button>
+
+                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                            Services
+                        </Button>
+                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                            Article
+                        </Button>
+                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                            About Us
+                        </Button>
                     </Box>
 
                     <Box sx={{ flexGrow: 0, display: 'flex', alignItems: 'center', gap: '10px' }}>

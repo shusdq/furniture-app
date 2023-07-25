@@ -20,57 +20,57 @@ const responsive = {
     },
 };
 function Products() {
-    const [products, setProducts] = useState([
-        { productName: 'Bookshelf', image: 'https://picsum.photos/id/238/500/500', title: 'Wooden Bookshelf', description: 'Combination of wood and wool', price: '$42.50' },
-        { productName: 'Lamp', image: 'https://picsum.photos/id/237/500/500', title: 'White Aesthetic Chair', description: 'Combination of wood and wool', price: '$63.47' },
-        { productName: 'Sofa', image: 'https://picsum.photos/id/236/500/500', title: 'Bardono Smart Lamp', description: 'Easy to use with bluetooth connection', price: '$62.23' },
-        { productName: 'Table', image: 'https://picsum.photos/id/231/500/500', title: 'Sofa Empuk Banget', description: 'Using kapuk randu material', price: '$58.39' },
-        { productName: 'Decoration', image: 'https://picsum.photos/id/232/500/500', title: 'Plant With Clay Stand', description: 'Combination of wood and wool', price: '$61.49' },
-        { productName: 'Decoration', image: 'https://picsum.photos/id/233/500/500', title: 'White Minimalist Vase', description: 'Combination of wood and wool', price: '$58.39' },
+    const [items, setItems] = useState([
+        { itemName: 'Bookshelf', image: 'https://picsum.photos/id/238/500/500', title: 'Wooden Bookshelf', description: 'Combination of wood and wool', price: '$42.50' },
+        { itemName: 'Lamp', image: 'https://picsum.photos/id/237/500/500', title: 'White Aesthetic Chair', description: 'Combination of wood and wool', price: '$63.47' },
+        { itemName: 'Sofa', image: 'https://picsum.photos/id/236/500/500', title: 'Bardono Smart Lamp', description: 'Easy to use with bluetooth connection', price: '$62.23' },
+        { itemName: 'Table', image: 'https://picsum.photos/id/231/500/500', title: 'Sofa Empuk Banget', description: 'Using kapuk randu material', price: '$58.39' },
+        { itemName: 'Decoration', image: 'https://picsum.photos/id/232/500/500', title: 'Plant With Clay Stand', description: 'Combination of wood and wool', price: '$61.49' },
+        { itemName: 'Decoration', image: 'https://picsum.photos/id/233/500/500', title: 'White Minimalist Vase', description: 'Combination of wood and wool', price: '$58.39' },
     ]);
-    const renderProducts = products.map((product, index) => (
+    const renderProducts = items.map((item, index) => (
         <Box key={index}>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'center', gap: '30px', mb: '160px' }}>
                 <Box sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column' }}>
-                    <Box component="img" src={product.image} sx={{ maxWidth: '400px', maxHeight: '360px', mb: '10px', cursor: 'pointer' }}></Box>
+                    <Box component="img" src={item.image} sx={{ maxWidth: '400px', maxHeight: '360px', mb: '10px', cursor: 'pointer' }}></Box>
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                         <Typography variant="h5" sx={{ color: '#AFADB5' }}>
-                            {product.productName}
+                            {item.itemName}
                         </Typography>
-                        <Typography variant="h3">{product.title}</Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.description}</Typography>
-                        <Typography variant="h3">{product.price}</Typography>
+                        <Typography variant="h3">{item.title}</Typography>
+                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.description}</Typography>
+                        <Typography variant="h3">{item.price}</Typography>
                     </Box>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column' }}>
-                    <Box component="img" src={product.image} sx={{ maxWidth: '220px', maxHeight: '200px', mb: '10px', cursor: 'pointer' }}></Box>
+                    <Box component="img" src={item.image} sx={{ maxWidth: '220px', maxHeight: '200px', mb: '10px', cursor: 'pointer' }}></Box>
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.productName}</Typography>
-                        <Typography variant="h6">{product.title}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.description}</Typography>
-                        <Typography variant="h6">{product.price}</Typography>
+                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.itemName}</Typography>
+                        <Typography variant="h6">{item.title}</Typography>
+                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.description}</Typography>
+                        <Typography variant="h6">{item.price}</Typography>
                     </Box>
                 </Box>
             </Box>
             <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'center', gap: '20px', mb: '100px' }}>
                 <Box sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column' }}>
-                    <Box component="img" src={product.image} sx={{ maxWidth: '400px', maxHeight: '360px', mb: '10px', cursor: 'pointer' }}></Box>
+                    <Box component="img" src={item.image} sx={{ maxWidth: '400px', maxHeight: '360px', mb: '10px', cursor: 'pointer' }}></Box>
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                         <Typography variant="h5" sx={{ color: '#AFADB5' }}>
-                            {product.productName}
+                            {item.itemName}
                         </Typography>
-                        <Typography variant="h3">{product.title}</Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.description}</Typography>
-                        <Typography variant="h3">{product.price}</Typography>
+                        <Typography variant="h3">{item.title}</Typography>item
+                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.description}</Typography>
+                        <Typography variant="h3">{item.price}</Typography>
                     </Box>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column' }}>
-                    <Box component="img" src={product.image} sx={{ maxWidth: '220px', maxHeight: '200px', mb: '10px', cursor: 'pointer' }}></Box>
+                    <Box component="img" src={item.image} sx={{ maxWidth: '220px', maxHeight: '200px', mb: '10px', cursor: 'pointer' }}></Box>
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.productName}</Typography>
-                        <Typography variant="h6">{product.title}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.description}</Typography>
-                        <Typography variant="h6">{product.price}</Typography>
+                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.itemName}</Typography>
+                        <Typography variant="h6">{item.title}</Typography>
+                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.description}</Typography>
+                        <Typography variant="h6">{item.price}</Typography>
                     </Box>
                 </Box>
             </Box>
