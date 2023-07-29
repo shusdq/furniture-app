@@ -135,7 +135,7 @@ function DiscoverFurniture() {
                             ),
                         }}
                     />
-                    <Box component="img" src="/rectangle.png" maxWidth="lg" sx={{ width: '100%', height: 'auto', position: 'absolute', top: '35px', left: '0', zIndex: '-1' }}></Box>
+                    <Box component="img" src="/images/rectangle.png" maxWidth="lg" sx={{ width: '100%', height: 'auto', position: 'absolute', top: '35px', left: '0', zIndex: '-1' }}></Box>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '30px', margin: '50px 0 30px' }}>
                     <Typography variant="h3" sx={{ position: 'relative', maxWidth: '730px', lineHeight: '130%' }}>
@@ -267,7 +267,7 @@ function DiscoverFurniture() {
                             ),
                         }}
                     />
-                    <Box component="img" src="/rectangle.png" maxWidth="lg" sx={{ width: '100%', height: 'auto' }}></Box>
+                    <Box component="img" src="/images/rectangle.png" maxWidth="lg" sx={{ width: '100%', height: 'auto' }}></Box>
                 </Box>
             </Box>
         </Container>

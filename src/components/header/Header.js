@@ -15,7 +15,6 @@ import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
 import { SvgIcon } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 
-const pages = ['Products', 'Services', 'Article', 'About Us'];
 const settings = ['Logout'];
 
 function ResponsiveAppBar() {
@@ -107,7 +106,14 @@ function ResponsiveAppBar() {
                                 </Typography>
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">Services</Typography>
+                                <Typography
+                                    textAlign="center"
+                                    onClick={() => {
+                                        navigate('/services');
+                                    }}
+                                >
+                                    Services
+                                </Typography>
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography textAlign="center">Article</Typography>
@@ -154,18 +160,23 @@ function ResponsiveAppBar() {
                             onClick={() => {
                                 navigate('/products');
                             }}
-                            sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
                         >
                             Products
                         </Button>
 
-                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                        <Button
+                            onClick={() => {
+                                navigate('/services');
+                            }}
+                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                        >
                             Services
                         </Button>
-                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
                             Article
                         </Button>
-                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
                             About Us
                         </Button>
                     </Box>
@@ -174,7 +185,7 @@ function ResponsiveAppBar() {
                         <ShoppingBagOutlinedIcon />
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                                <Avatar style={{ width: '30px', height: '30px' }} alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
                             </IconButton>
                         </Tooltip>
                         <Menu

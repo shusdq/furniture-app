@@ -1,0 +1,434 @@
+[
+      {
+        "id":"1",
+        "name": "Sofa Set",
+        "title": "Elegant 3-Piece Sofa Set",
+        "description": "A luxurious and comfortable 3-piece sofa set with premium fabric and sturdy construction.",
+        "img": "/products/sofaset.webp",
+        "price": 899.99
+      },
+      {
+        "id":"2",
+        "name": "Dining Table",
+        "title": "Modern Glass-Top Dining Table",
+        "description": "A sleek and contemporary dining table with a tempered glass top and metal legs.",
+        "img": "/products/dining-table.webp",
+        "price": 449.50
+      },
+      {
+        "id":"3",
+        "name": "Bed Frame",
+        "title": "Classic Wooden Bed Frame",
+        "description": "A timeless bed frame made from high-quality wood with intricate carvings.",
+        "img": "/products/bed-frame.jpg",
+        "price": 699.00
+      },
+      {
+        "id":"4",
+        "name": "Wardrobe",
+        "title": "Spacious 4-Door Wardrobe",
+        "description": "A large wardrobe with four doors and ample storage space for your clothes and belongings.",
+        "img": "/products/wardrobe.webp",
+        "price": 799.99
+      },
+      {
+        "id":"5",
+        "name": "Coffee Table",
+        "title": "Contemporary Marble Coffee Table",
+        "description": "A stylish coffee table with a marble top and metallic legs, adding elegance to any living room.",
+        "img": "/products/coffee-table.jpg",
+        "price": 349.95
+      },
+      {
+        "id":"6",
+        "name": "Bookshelf",
+        "title": "Modern Open-Back Bookshelf",
+        "description": "A minimalist bookshelf with open-back design, perfect for displaying books and decor.",
+        "img": "/products/bookshelf.jpg",
+        "price": 199.00
+      },
+      {
+        "id":"7",
+        "name": "TV Stand",
+        "title": "Sleek TV Stand with Storage",
+        "description": "A functional TV stand with multiple shelves and cabinets to store media equipment.",
+        "img": "/products/tv-stand.jpg",
+        "price": 299.50
+      },
+      {
+        "id":"8",
+        "name": "Office Chair",
+        "title": "Ergonomic Mesh Office Chair",
+        "description": "An adjustable and breathable mesh office chair for maximum comfort during work hours.",
+        "img": "/products/office-chair.jpg",
+        "price": 189.95
+      },
+      {
+        "id":"9",
+        "name": "Dresser",
+        "title": "Vintage Dresser with Mirror",
+        "description": "A charming vintage dresser with a mirror, perfect for bedroom use.",
+        "img": "/products/dresser.jpg",
+        "price": 549.00
+      },
+      {
+        "id":"10",
+        "name": "Side Table",
+        "title": "Contemporary Side Table",
+        "description": "A versatile side table with a modern design, suitable for any room in your home.",
+        "img": "/products/side-table.jpg",
+        "price": 129.99
+      },
+      {
+        "id":"11",
+        "name": "L-Shaped Sofa",
+        "title": "Comfortable L-Shaped Sofa",
+        "description": "A spacious L-shaped sofa with plush cushions, perfect for relaxing with family and friends.",
+        "img": "/products/l-shaped-sofa.jpg",
+        "price": 999.00
+      },
+      {
+        "id":"12",
+        "name": "Chest of Drawers",
+        "title": "Traditional Chest of Drawers",
+        "description": "A traditional chest of drawers with multiple storage compartments for your clothing.",
+        "img": "/products/chest-of-drawers.webp",
+        "price": 379.50
+      },
+      {
+        "id":"13",
+        "name": "Dining Chairs",
+        "title": "Set of 4 Dining Chairs",
+        "description": "A set of four elegant dining chairs with comfortable cushioned seats.",
+        "img": "/products/dining-chairs.jpg",
+        "price": 279.00
+      },
+      {
+        "id":"14",
+        "name": "Folding Table",
+        "title": "Compact Folding Table",
+        "description": "A space-saving folding table that can be easily stored when not in use.",
+        "img": "/products/folding-table.jpg",
+        "price": 89.99
+      },
+      {
+        "id":"15",
+        "name": "Rocking Chair",
+        "title": "Classic Wooden Rocking Chair",
+        "description": "A classic wooden rocking chair for relaxation and enjoyment.",
+        "img": "/products/rocking-chair.jpg",
+        "price": 199.50
+      },
+      {
+        "id":"16",
+        "name": "Console Table",
+        "title": "Slim Console Table",
+        "description": "A slim and stylish console table for hallway or entryway use.",
+        "img": "/products/console-table.webp",
+        "price": 149.00
+      },
+      {
+        "id":"17",
+        "name": "Sectional Sofa",
+        "title": "Spacious Sectional Sofa",
+        "description": "A large and comfortable sectional sofa with a chaise lounge.",
+        "img": "/products/sectional-sofa.jpg",
+        "price": 1399.00
+      },
+      {
+        "id":"18",
+        "name": "Cabinet",
+        "title": "Rustic Wooden Cabinet",
+        "description": "A rustic wooden cabinet with intricate carvings and ample storage space.",
+        "img": "/products/cabinet.avif",
+        "price": 799.95
+      },
+      {
+        "id":"19",
+        "name": "Bar Stools",
+        "title": "Set of 2 Bar Stools",
+        "description": "A set of two modern bar stools with adjustable height.",
+        "img": "/products/bar-stools.jpg",
+        "price": 139.00
+      },
+      {
+        "id":"20",
+        "name": "Writing Desk",
+        "title": "Compact Writing Desk",
+        "description": "A compact writing desk with a pull-out drawer for storing stationery.",
+        "img": "/products/writing-desk.jpg",
+        "price": 249.50
+      },
+      {
+        "id":"21",
+        "name": "Accent Chair",
+        "title": "Elegant Accent Chair",
+        "description": "An elegant accent chair with a decorative design, perfect for the living room.",
+        "img": "/products/accent-chair.jpg",
+        "price": 299.00
+      },
+      {
+        "id":"22",
+        "name": "Nightstand",
+        "title": "Bedside Nightstand",
+        "description": "A bedside nightstand with a drawer and open shelf for your nighttime essentials.",
+        "img": "/products/nightstand.avif",
+        "price": 129.99
+      },
+      {
+        "id":"23",
+        "name": "Bean Bag Chair",
+        "title": "Comfortable Bean Bag Chair",
+        "description": "A comfortable and fun bean bag chair for lounging and relaxation.",
+        "img": "/products/bean-bag-chair.jpg",
+        "price": 79.95
+      },
+      {
+        "id":"24",
+        "name": "Buffet Table",
+        "title": "Elegant Buffet Table",
+        "description": "An elegant buffet table with storage cabinets, perfect for dining room use.",
+        "img": "/products/buffet-table.jpg",
+        "price": 499.00
+      },
+      {
+        "id":"25",
+        "name": "Shoe Rack",
+        "title": "Wooden Shoe Rack",
+        "description": "A wooden shoe rack with multiple tiers for organizing your footwear.",
+        "img": "/products/shoe-rack.webp",
+        "price": 89.50
+      },
+      {
+        "id":"26",
+        "name": "Chaise Lounge",
+        "title": "Classic Chaise Lounge",
+        "description": "A classic chaise lounge with soft upholstery, perfect for relaxation.",
+        "img": "/products/chaise-lounge.jpg",
+        "price": 579.00
+      },
+      {
+        "id":"27",
+        "name": "Computer Desk",
+        "title": "Modern Computer Desk",
+        "description": "A modern computer desk with a sleek design and spacious desktop.",
+        "img": "/products/computer-desk.jpg",
+        "price": 249.95
+      },
+      {
+        "id":"28",
+        "name": "Futon",
+        "title": "Convertible Futon Sofa",
+        "description": "A versatile futon sofa that can be converted into a bed for guests.",
+        "img": "/products/futon.jpg",
+        "price": 299.00
+      },
+      {
+        "id":"29",
+        "name": "Bar Cabinet",
+        "title": "Stylish Bar Cabinet",
+        "description": "A stylish bar cabinet with storage for drinks and glassware.",
+        "img": "/products/bar-cabinet.webp",
+        "price": 699.50
+      },
+      {
+        "id":"30",
+        "name": "Armchair",
+        "title": "Comfy Armchair",
+        "description": "A comfy armchair with a tufted backrest and padded armrests.",
+        "img": "/products/armchair.webp",
+        "price": 349.99
+      },
+      {
+        "id":"31",
+        "name": "Credenza",
+        "title": "Mid-Century Credenza",
+        "description": "A mid-century credenza with retro design and plenty of storage space.",
+        "img": "/products/credenza.jpg",
+        "price": 899.00
+      },
+      {
+        "id":"32",
+        "name": "Vanity Table",
+        "title": "Elegant Vanity Table",
+        "description": "An elegant vanity table with a mirror and drawers for makeup and accessories.",
+        "img": "/products/vanity-table.webp",
+        "price": 349.50
+      },
+      {
+        "id":"33",
+        "name": "Lounge Chair",
+        "title": "Modern Lounge Chair",
+        "description": "A modern lounge chair with a comfortable design, perfect for relaxation.",
+        "img": "/products/lounge-chair.webp",
+        "price": 449.00
+      },
+      {
+        "id":"34",
+        "name": "Ottoman",
+        "title": "Upholstered Ottoman",
+        "description": "An upholstered ottoman that serves as both a footrest and extra seating.",
+        "img": "/products/ottoman.avif",
+        "price": 129.95
+      },
+      {
+        "id":"35",
+        "name": "Bunk Bed",
+        "title": "Sturdy Bunk Bed",
+        "description": "A sturdy bunk bed with a ladder and safety rails, ideal for kids' bedrooms.",
+        "img": "/products/bunk-table.webp",
+        "price": 799.00
+      },
+      {
+        "id":"36",
+        "name": "Gaming Chair",
+        "title": "Ergonomic Gaming Chair",
+        "description": "An ergonomic gaming chair with lumbar support and adjustable armrests.",
+        "img": "/products/gaming-chair.webp",
+        "price": 349.99
+      },
+      {
+        "id":"37",
+        "name": "Sideboard",
+        "title": "Contemporary Sideboard",
+        "description": "A contemporary sideboard with storage for dining room essentials.",
+        "img": "/products/sideboard.jpg",
+        "price": 599.00
+      },
+      {
+        "id":"38",
+        "name": "Bench",
+        "title": "Rustic Wooden Bench",
+        "description": "A rustic wooden bench with a comfortable seat, ideal for entryways or gardens.",
+        "img": "/products/bench.jpg",
+        "price": 189.50
+      },
+      {
+        "id":"39",
+        "name": "Writing Chair",
+        "title": "Comfortable Writing Chair",
+        "description": "A comfortable writing chair with a cushioned seat for extended writing sessions.",
+        "img": "/products/writing-chair.jpg",
+        "price": 129.00
+      },
+      {
+        "id":"40",
+        "name": "Dresser with Mirror",
+        "title": "Stylish Dresser with Mirror",
+        "description": "A stylish dresser with a matching mirror, perfect for bedrooms.",
+        "img": "/products/dresser-with-mirror.jpg",
+        "price": 699.50
+      },
+      {
+        "id":"41",
+        "name": "Couch",
+        "title": "Cozy Couch",
+        "description": "A cozy couch with plush cushions and a sturdy wooden frame.",
+        "img": "/products/couch.jpg",
+        "price": 999.00
+      },
+      {
+        "id":"42",
+        "name": "Storage Bench",
+        "title": "Versatile Storage Bench",
+        "description": "A versatile storage bench with compartments to keep your belongings organized.",
+        "img": "/products/storage-bench.webp",
+        "price": 179.99
+      },
+      {
+        "id":"43",
+        "name": "Console Cabinet",
+        "title": "Console Cabinet with Drawers",
+        "description": "A console cabinet with drawers and a spacious top surface for display.",
+        "img": "/products/console-cabinet.jpg",
+        "price": 449.00
+      },
+      {
+        "id":"44",
+        "name": "Nesting Tables",
+        "title": "Set of 3 Nesting Tables",
+        "description": "A set of three nesting tables with a modern design and varying sizes.",
+        "img": "/products/nesting-tables.jpg",
+        "price": 249.50
+      },
+      {
+        "id":"45",
+        "name": "Bathroom Vanity",
+        "title": "Modern Bathroom Vanity",
+        "description": "A modern bathroom vanity with a sink and storage cabinets.",
+        "img": "/products/bathroom-vanity.webp",
+        "price": 799.00
+      },
+      {
+        "id":"46",
+        "name": "Chandelier",
+        "title": "Elegant Crystal Chandelier",
+        "description": "An elegant crystal chandelier to add a touch of sophistication to your space.",
+        "img": "/products/chandelier.jpg",
+        "price": 499.95
+      },
+      {
+        "id":"47",
+        "name": "Accent Table",
+        "title": "Decorative Accent Table",
+        "description": "A decorative accent table with a unique design, ideal for small spaces.",
+        "img": "/products/accent-table-mini.jpg",
+        "price": 139.50
+      },
+      {
+        "id":"48",
+        "name": "Folding Chairs",
+        "title": "Set of 4 Folding Chairs",
+        "description": "A set of four folding chairs that can be easily stored when not in use.",
+        "img": "/products/folding-chairs.webp",
+        "price": 99.99
+      },
+      {
+        "id":"49",
+        "name": "Canopy Bed",
+        "title": "Elegant Canopy Bed",
+        "description": "An elegant canopy bed with a sturdy frame and flowing drapes for a luxurious feel.",
+        "img": "/products/canopy-bed.webp",
+        "price": 1299.00
+      },
+      {
+        "id":"50",
+        "name": "Glider Recliner",
+        "title": "Comfortable Glider Recliner",
+        "description": "A comfortable glider recliner with plush cushions for ultimate relaxation.",
+        "img": "/products/glider-recliner.jpg",
+        "price": 399.00
+      },
+      {
+        "id":"51",
+        "name": "Bar Cart",
+        "title": "Stylish Bar Cart",
+        "description": "A stylish bar cart with wheels for easy movement and storage of drinks.",
+        "img": "/products/bar-cart.jpg",
+        "price": 219.50
+      },
+      {
+        "id":"52",
+        "name": "Bistro Set",
+        "title": "Outdoor Bistro Set",
+        "description": "An outdoor bistro set with a table and two chairs, perfect for small spaces.",
+        "img": "/products/bistro-set.webp",
+        "price": 199.99
+      },
+      {
+        "id":"53",
+        "name": "Wall Shelf",
+        "title": "Floating Wall Shelf",
+        "description": "A floating wall shelf that adds both style and functionality to your space.",
+        "img": "/products/wall-shelf.jpg",
+        "price": 69.95
+      },
+      {
+        "id":"54",
+        "name": "Futon Sofa Bed",
+        "title": "Convertible Futon Sofa Bed",
+        "description": "A versatile futon sofa bed with a comfortable mattress, ideal for guests.",
+        "img": "/products/futon-sofa-bed.jpg",
+        "price": 349.00
+      }
+    ]
