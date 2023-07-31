@@ -8,7 +8,7 @@ import { getRelatedProducts } from '../utils/relatedProducts';
 
 function ProductById() {
     const navigate = useNavigate();
-    const products = useSelector(state => state.products.products);
+    const products = useSelector(state => state.data.products);
     const relatedProducts = getRelatedProducts(products, 3);
     const { id } = useParams();
     const product = products.find(product => product.id === id);

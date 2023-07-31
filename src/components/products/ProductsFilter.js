@@ -3,11 +3,10 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 
 function ProductsFilter({ filter, setFilter }) {
-    const products = useSelector(state => state.products.products);
+    const products = useSelector(state => state.data.products);
 
     const handleSortChange = event => {
         const selectedSort = event.target.value;
-        // Check if the selectedSort is a valid option before updating the filter.
         if (['', 'title', 'description'].includes(selectedSort)) {
             setFilter({ ...filter, sort: selectedSort });
         }

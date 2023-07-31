@@ -1,0 +1,148 @@
+[
+    {
+        "id": "1",
+        "mainImage":"/posts/bath-window.jpg",
+        "article": "Tips and Trick",
+        "title": "This 400-Square-Foot New York Apartment Is Maximized With Custom Millwork",
+        "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+        "avatar": "https://picsum.photos/id/3/200/300",
+        "fullName": "Morgan Goldberg",
+        "date": "2023-08-22",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText":"firstText",
+            "firstImage":"firstImage",
+            "secondTitle": "secondTitle",
+            "secondText":"secondText",
+            "secondImage":"secondImage"
+        }
+    },
+    {
+        "id": "2",
+        "mainImage":"/posts/living-room.jpg",
+        "article": "Interior Design",
+        "title": "How to make your interiors cooler and more stylish",
+        "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+        "avatar": "https://picsum.photos/id/4/200/300",
+        "fullName": "Rizal Ahmad",
+        "date": "2023-09-04",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText":"firstText",
+            "firstImage":"firstImage",
+            "secondTitle": "secondTitle",
+            "secondText":"secondText",
+            "secondImage":"secondImage"
+        }
+    },
+    {
+        "id": "3",
+        "mainImage":"/posts/bedroom1.jpg",
+        "article": "Color Guide",
+        "title": "20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun",
+        "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+        "avatar": "https://picsum.photos/id/3/200/300",
+        "fullName": "Filipus Pendi",
+        "date": "2023-09-11",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText":"firstText",
+            "firstImage":"firstImage",
+            "secondTitle": "secondTitle",
+            "secondText":"secondText",
+            "secondImage":"secondImage"
+        }
+    },
+    {
+        "id": "4",
+        "mainImage":"/posts/color-guide1.jpg",
+        "article": "Design Inspiration",
+        "title": "This 400-Square-Foot New York Apartment Is Maximized With Custom Millwork",
+        "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+        "avatar": "https://picsum.photos/id/3/200/300",
+        "fullName": "Grace Marie",
+        "date": "2023-10-25",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText":"firstText",
+            "firstImage":"firstImage",
+            "secondTitle": "secondTitle",
+            "secondText":"secondText",
+            "secondImage":"secondImage"
+        }
+    },
+    {
+        "id": "5",
+        "mainImage":"/posts/interior-design.jpg",
+        "article": "Tips and Trick",
+        "title": "10 Creative Ways to Maximize Storage in Small Bedrooms",
+        "mainText": "Storage is always a concern in small bedrooms. Learn how to maximize the space with these creative ideas for efficient storage solutions.",
+        "avatar": "https://picsum.photos/id/6/200/300",
+        "fullName": "Alexandra Smith",
+        "date": "2023-11-15",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText": "firstText",
+            "firstImage": "firstImage",
+            "secondTitle": "secondTitle",
+            "secondText": "secondText",
+            "secondImage": "secondImage"
+        }
+    },
+    {
+        "id": "6",
+        "mainImage":"/posts/interior2.jpg",
+        "article": "Interior Design",
+        "title": "5 Simple Ways to Create a Relaxing Home Sanctuary",
+        "mainText": "Transform your home into a calming sanctuary with these easy interior design tips. Create a space that promotes relaxation and reduces stress.",
+        "avatar": "https://picsum.photos/id/7/200/300",
+        "fullName": "Emily Johnson",
+        "date": "2023-11-28",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText": "firstText",
+            "firstImage": "firstImage",
+            "secondTitle": "secondTitle",
+            "secondText": "secondText",
+            "secondImage": "secondImage"
+        }
+    },
+    {
+        "id": "7",
+        "mainImage":"/posts/kitchen-dining.jpg",
+        "article": "Color Guide",
+        "title": "Brighten Up Your Living Room with Vibrant Color Schemes",
+        "mainText": "Discover how to infuse your living room with vibrant colors to add energy and liveliness to the space. Get inspired by these color schemes.",
+        "avatar": "https://picsum.photos/id/8/200/300",
+        "fullName": "Michael Thompson",
+        "date": "2023-12-12",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText": "firstText",
+            "firstImage": "firstImage",
+            "secondTitle": "secondTitle",
+            "secondText": "secondText",
+            "secondImage": "secondImage"
+        }
+    },
+    {
+        "id": "8",
+        "mainImage": "/posts/living-room-modern.jpg",
+        "article": "Design Inspiration",
+        "title": "10 Stunning Home Office Ideas for Increased Productivity",
+        "mainText": "Working from home? Elevate your home office with these stunning design ideas that boost productivity and create a comfortable work environment.",
+        "avatar": "https://picsum.photos/id/9/200/300",
+        "fullName": "Christopher Lee",
+        "date": "2023-12-24",
+        "additionalInfo": {
+            "firstTitle": "firstTitle",
+            "firstText": "firstText",
+            "firstImage": "firstImage",
+            "secondTitle": "secondTitle",
+            "secondText": "secondText",
+            "secondImage": "secondImage"
+        }
+    }
+    
+
+]

@@ -25,6 +25,7 @@ body,
     font-family: "Eudoxus Sans", sans-serif;
     overflow-x: hidden;
 }
+
 @keyframes pulse {
     0% {
       transform: scale(1);

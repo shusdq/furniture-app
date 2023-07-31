@@ -5,7 +5,7 @@ import { useProducts } from '../../hooks/useProducts';
 import ProductsList from './ProductsList';
 import PostService from '../../API/PostService';
 import { getPageCount } from '../../utils/pages';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { setProducts } from '../../store/features/dataSlice';
 
 function TotalProducts() {
@@ -21,7 +21,7 @@ function TotalProducts() {
 
     async function fetchProducts() {
         setIsProductsLoading(true);
-        const response = await PostService.getAll(limit, page);
+        const response = await PostService.getAllProducts(limit, page);
         dispatch(setProducts(response.data));
         const startIndex = (page - 1) * limit;
         const endIndex = startIndex + limit;

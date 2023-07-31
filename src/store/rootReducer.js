@@ -1,6 +1,6 @@
 import { combineReducers } from '@reduxjs/toolkit';
-import productsReducer from './features/dataSlice';
+import dataReducer from './features/dataSlice';
 
-const rootReducer = combineReducers({ products: productsReducer });
+const rootReducer = combineReducers({ data: dataReducer });
 
 export default rootReducer;

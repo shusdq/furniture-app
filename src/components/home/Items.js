@@ -2,6 +2,8 @@ import { Box, Container, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import 'react-multi-carousel/lib/styles.css';
+
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },

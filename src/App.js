@@ -5,6 +5,8 @@ import { Routes, Route } from 'react-router-dom';
 import Products from './pages/Products';
 import ProductById from './pages/ProductById';
 import Services from './pages/Services';
+import AboutUs from './pages/AboutUs';
+import Article from './pages/Article';
 
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
                     <Route path="/products" element={<Products />} />
                     <Route path="/products/:id" element={<ProductById />} />
                     <Route path="/services" element={<Services />} />
+                    <Route path="/article" element={<Article />} />
+                    <Route path="/about" element={<AboutUs />} />
                 </Routes>
             </ThemeProvider>
         </div>

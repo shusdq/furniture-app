@@ -116,10 +116,24 @@ function ResponsiveAppBar() {
                                 </Typography>
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">Article</Typography>
+                                <Typography
+                                    textAlign="center"
+                                    onClick={() => {
+                                        navigate('/article');
+                                    }}
+                                >
+                                    Article
+                                </Typography>
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">About Us</Typography>
+                                <Typography
+                                    textAlign="center"
+                                    onClick={() => {
+                                        navigate('/about');
+                                    }}
+                                >
+                                    About Us
+                                </Typography>
                             </MenuItem>
                         </Menu>
                     </Box>
@@ -173,10 +187,20 @@ function ResponsiveAppBar() {
                         >
                             Services
                         </Button>
-                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                        <Button
+                            onClick={() => {
+                                navigate('/article');
+                            }}
+                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                        >
                             Article
                         </Button>
-                        <Button onClick={handleCloseNavMenu} sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}>
+                        <Button
+                            onClick={() => {
+                                navigate('/about');
+                            }}
+                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                        >
                             About Us
                         </Button>
                     </Box>
