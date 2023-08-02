@@ -4,14 +4,15 @@ import Footer from '../components/footer/Footer';
 import { Box, Button, Container, Typography } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import { getRelatedProducts } from '../utils/relatedProducts';
+import { getRelatedItems } from '../utils/relatedItems';
 
 function ProductById() {
     const navigate = useNavigate();
-    const products = useSelector(state => state.data.products);
-    const relatedProducts = getRelatedProducts(products, 3);
     const { id } = useParams();
+    const products = useSelector(state => state.data.products);
+
     const product = products.find(product => product.id === id);
+    const relatedProducts = getRelatedItems(products, 3);
 
     if (!product) {
         return <p>Loading...</p>;

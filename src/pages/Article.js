@@ -7,6 +7,7 @@ import { useDispatch } from 'react-redux';
 import { setPosts } from '../store/features/dataSlice';
 import ArticleCarousel from '../components/article/ArticleCarousel';
 import DailyNews from '../components/article/DailyNews';
+import Topics from '../components/article/Topics';
 function Article() {
     const dispatch = useDispatch();
 
@@ -51,6 +52,7 @@ function Article() {
 
                         <ArticleCarousel />
                         <DailyNews />
+                        <Topics/>
                     </Box>
                 )}
                 <Footer />

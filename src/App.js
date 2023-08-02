@@ -7,6 +7,7 @@ import ProductById from './pages/ProductById';
 import Services from './pages/Services';
 import AboutUs from './pages/AboutUs';
 import Article from './pages/Article';
+import PostById from './pages/PostById';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/products/:id" element={<ProductById />} />
                     <Route path="/services" element={<Services />} />
                     <Route path="/article" element={<Article />} />
+                    <Route path="/posts/:id" element={<PostById />} />
                     <Route path="/about" element={<AboutUs />} />
                 </Routes>
             </ThemeProvider>

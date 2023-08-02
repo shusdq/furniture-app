@@ -1,4 +1,4 @@
-export function getRelatedProducts(array, numberOfObjects) {
+export function getRelatedItems(array, numberOfObjects) {
     if (numberOfObjects > array.length) {
         throw new Error('Number of objects requested is greater than array length');
     }
