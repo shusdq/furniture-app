@@ -3,6 +3,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { useNavigate } from 'react-router-dom';
 const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
@@ -22,11 +23,17 @@ const responsive = {
 };
 
 function ArticleCarousel() {
+    const navigate = useNavigate();
     const posts = useSelector(state => state.data.posts);
 
     const renderPosts = posts.map((post, index) => (
         <Box key={index}>
-            <Box sx={{ display: { xs: 'none', md: 'flex' }, position: 'relative', mb: '160px' }}>
+            <Box
+                onClick={() => {
+                    navigate(`/posts/${post.id}`);
+                }}
+                sx={{ display: { xs: 'none', md: 'flex' }, position: 'relative', mb: '160px', cursor: 'pointer' }}
+            >
                 <Box component="img" src={post.mainImage} sx={{ width: '100%', height: 'auto' }}></Box>
                 <Box
                     sx={{
@@ -52,7 +59,12 @@ function ArticleCarousel() {
                     </Box>
                 </Box>
             </Box>
-            <Box sx={{ display: { xs: 'flex', md: 'none' }, position: 'relative', mb: '160px' }}>
+            <Box
+                onClick={() => {
+                    navigate(`/posts/${post.id}`);
+                }}
+                sx={{ display: { xs: 'flex', md: 'none' }, position: 'relative', mb: '80px', cursor: 'pointer' }}
+            >
                 <Box component="img" src={post.mainImage} sx={{ width: '100%', height: 'auto' }}></Box>
                 <Box
                     sx={{

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import 'react-multi-carousel/lib/styles.css';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const responsive = {
     desktop: {
@@ -25,9 +25,8 @@ const responsive = {
 };
 function Products() {
     const navigate = useNavigate();
-    const { id } = useParams();
+
     const products = useSelector(state => state.data.products);
-    const product = products.find(product => product.id === id);
 
     const renderProducts = products.map((product, index) => (
         <Box key={index}>
