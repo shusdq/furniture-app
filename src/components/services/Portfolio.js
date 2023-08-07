@@ -113,7 +113,7 @@ function Portfolio() {
                     Are you interested work with us?
                 </Typography>
                 <Button variant="contained" sx={{ maxHeight: '50px', fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
-                    Let`s Talk &#10132;
+                    let's Talk &#10132;
                 </Button>
             </Box>
             <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', alignItems: 'center', mb: '50px' }}>
@@ -121,7 +121,7 @@ function Portfolio() {
                     Are you interested work with us?
                 </Typography>
                 <Button variant="contained" sx={{ fontSize: '14px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
-                    Let`s Talk &#10132;
+                    let's Talk &#10132;
                 </Button>
             </Box>
         </Box>

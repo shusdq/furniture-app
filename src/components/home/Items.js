@@ -1,6 +1,5 @@
 import { Box, Container, Typography } from '@mui/material';
 import React from 'react';
-import { useSelector } from 'react-redux';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import 'react-multi-carousel/lib/styles.css';
@@ -10,12 +9,12 @@ const responsive = {
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
         items: 3,
-        slidesToSlide: 3, // optional, default to 1.
+        slidesToSlide: 1, // optional, default to 1.
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
         items: 2,
-        slidesToSlide: 2, // optional, default to 1.
+        slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
         breakpoint: { max: 464, min: 0 },
@@ -23,10 +22,8 @@ const responsive = {
         slidesToSlide: 1, // optional, default to 1.
     },
 };
-function Products() {
+function Products({ products }) {
     const navigate = useNavigate();
-
-    const products = useSelector(state => state.data.products);
 
     const renderProducts = products.map((product, index) => (
         <Box key={index}>

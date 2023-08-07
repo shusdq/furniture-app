@@ -22,9 +22,8 @@ const responsive = {
     },
 };
 
-function ArticleCarousel() {
+function ArticleCarousel({ posts }) {
     const navigate = useNavigate();
-    const posts = useSelector(state => state.data.posts);
 
     const renderPosts = posts.map((post, index) => (
         <Box key={index}>

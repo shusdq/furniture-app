@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'Eudoxus Sans';
     font-weight: 400;
-    src: url(./fonts/EudoxusSans-Regular.woff2);
+    src: url(../public/fonts/EudoxusSans-Regular.woff2);
 }
 @font-face {
     font-family: 'Eudoxus Sans';
     font-weight: 500;
-    src: url(./fonts/EudoxusSans-Medium.woff2);
+    src: url(../public/fonts/EudoxusSans-Medium.woff2);
 }
 @font-face {
     font-family: 'Eudoxus Sans';
     font-weight: 700;
-    src: url(./fonts/EudoxusSans-Bold.woff2);
+    src: url(../public/fonts/EudoxusSans-Bold.woff2);
 }
 html,
 body,

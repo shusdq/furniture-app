@@ -1,11 +1,10 @@
 import { Avatar, Box, Typography } from '@mui/material';
 import React from 'react';
-import { useSelector } from 'react-redux';
+
 import { useNavigate } from 'react-router-dom';
 
-function DailyNews() {
+function DailyNews({ posts }) {
     const navigate = useNavigate();
-    const posts = useSelector(state => state.data.posts);
 
     const renderPosts = posts.slice(-2).map((post, index) => (
         <Box key={index}>

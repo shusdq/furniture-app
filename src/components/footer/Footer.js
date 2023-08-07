@@ -1,7 +1,9 @@
 import { Box, Container, SvgIcon, Typography } from '@mui/material';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Footer() {
+    const navigate = useNavigate();
     return (
         <Container>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', mb: '90px', pt: '90px', borderTop: '1px solid #ECE4DE', gap: '15px' }}>
@@ -25,14 +27,16 @@ function Footer() {
                         <Typography
                             variant="h3"
                             noWrap
-                            component="a"
-                            href="/"
+                            onClick={() => {
+                                navigate('/');
+                            }}
                             sx={{
                                 mr: 2,
                                 display: 'flex',
                                 fontWeight: 700,
                                 color: 'inherit',
                                 textDecoration: 'none',
+                                cursor: 'pointer',
                             }}
                         >
                             Lalasia
@@ -114,14 +118,16 @@ function Footer() {
                         <Typography
                             variant="h4"
                             noWrap
-                            component="a"
-                            href="/"
+                            onClick={() => {
+                                navigate('/');
+                            }}
                             sx={{
                                 mr: 2,
                                 display: 'flex',
                                 fontWeight: 700,
                                 color: 'inherit',
                                 textDecoration: 'none',
+                                cursor: 'pointer',
                             }}
                         >
                             Lalasia

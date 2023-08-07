@@ -1,18 +1,15 @@
 import { Avatar, Box, Button, Container, Typography } from '@mui/material';
-import React, { useState, useEffect } from 'react';
-import { useSelector } from 'react-redux';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-function Articles() {
+function Articles({ posts }) {
     const navigate = useNavigate();
-    const posts = useSelector(state => state.data.posts);
-
     return (
         <Container>
             <Typography variant="h5" color="secondary" sx={{ mb: '15px' }}>
                 Articles
             </Typography>
-            <Box sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="space-between" gap="50px" my={2}>
+            <Box sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="space-between" gap="50px">
                 {/* Left Box */}
                 {posts.length > 0 && (
                     <Box flexBasis="50%">

@@ -65,7 +65,7 @@ function Craft() {
                     </Box>
                 </Box>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                    <Box component="img" src="/posts/color-guide1.jpg" sx={{ width: '100%', maxWidth: '595px', height: 'auto' }}></Box>
+                    <Box component="img" src="/posts/color-guide1.jpg" sx={{ width: '100%', height: 'auto' }}></Box>
                     <Box component="img" src="posts/bedroom1.jpg" sx={{ width: '100%', height: 'auto' }}></Box>
                 </Box>
             </Box>

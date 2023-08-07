@@ -1,22 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../components/header/Header';
 import Footer from '../components/footer/Footer';
 import { Box, Button, Container, Typography } from '@mui/material';
 import { useNavigate, useParams } from 'react-router-dom';
-import { useSelector } from 'react-redux';
 import { getRelatedItems } from '../utils/relatedItems';
+import { useDispatch } from 'react-redux';
+import { addToCart } from '../store/features/cartSlice';
+import Submit from '../components/modal/Submit';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-function ProductById() {
+function ProductById({ products }) {
+    const dispatch = useDispatch();
     const navigate = useNavigate();
     const { id } = useParams();
-    const products = useSelector(state => state.data.products);
+    const [open, setOpen] = useState(false);
+
+    const handleOpen = () => {
+        setOpen(true);
+    };
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    const onCheckoutConfirm = () => {
+        handleClose();
+        toast.success('Thanks for buying our furniture!');
+    };
 
     const product = products.find(product => product.id === id);
-    const relatedProducts = getRelatedItems(products, 3);
 
-    if (!product) {
-        return <p>Loading...</p>;
-    }
+    const relatedProducts = getRelatedItems(products, 3);
 
     const renderRelatedProducts = relatedProducts.map(relatedProduct => (
         <Box key={relatedProduct.id}>
@@ -72,7 +86,7 @@ function ProductById() {
                         </Typography>
                         <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '30px' }}>{product.title}</Typography>
                         <Typography variant="h5" sx={{ mb: '20px' }}>
-                            Color
+                            Color:
                         </Typography>
                         <Box sx={{ display: 'flex', mb: '20px' }}>
                             <Box sx={{ width: '50px', height: '50px', backgroundColor: '#151411' }}></Box>
@@ -85,14 +99,32 @@ function ProductById() {
                             ${product.price}
                         </Typography>
                         <Box sx={{ display: 'flex', gap: '20px' }}>
-                            <Button variant="contained" sx={{ flex: '0.5', color: '#fff', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', borderRadius: '0' }}>
+                            <Button
+                                onClick={handleOpen}
+                                variant="contained"
+                                sx={{ flex: '0.5', color: '#fff', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', borderRadius: '0', textTransform: 'capitalize' }}
+                            >
                                 Buy Now
                             </Button>
+                            <Submit cart={product} open={open} onClose={handleClose} onCheckoutConfirm={onCheckoutConfirm} />
                             <Button
+                                onClick={() => {
+                                    dispatch(addToCart({ id: product.id, title: product.title, price: product.price, img: product.img }));
+                                }}
                                 variant="text"
-                                sx={{ flex: '0.5', color: '#151411', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', border: '2px solid #F3F3F3', borderRadius: '0' }}
+                                sx={{
+                                    flex: '0.5',
+                                    color: '#151411',
+                                    fontSize: '18px',
+                                    fontWeight: '700',
+                                    lineHeight: '130%',
+                                    p: '15px 0',
+                                    border: '2px solid #F3F3F3',
+                                    borderRadius: '0',
+                                    textTransform: 'capitalize',
+                                }}
                             >
-                                Add to Chart
+                                Add to Cart
                             </Button>
                         </Box>
                     </Box>
@@ -104,7 +136,7 @@ function ProductById() {
                             {product.name}
                         </Typography>
                         <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '20px' }}>{product.title}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#151411', mb: '5px' }}>Color</Typography>
+                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#151411', mb: '5px' }}>Color:</Typography>
                         <Box sx={{ display: 'flex', mb: '20px' }}>
                             <Box sx={{ width: '30px', height: '30px', backgroundColor: '#151411' }}></Box>
                             <Box sx={{ width: '30px', height: '30px', backgroundColor: '#314443' }}></Box>
@@ -116,14 +148,31 @@ function ProductById() {
                             ${product.price}
                         </Typography>
                         <Box sx={{ display: 'flex', gap: '10px', flexDirection: 'column' }}>
-                            <Button variant="contained" sx={{ flex: '0.5', color: '#fff', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', borderRadius: '0' }}>
+                            <Button
+                                onClick={handleOpen}
+                                variant="contained"
+                                sx={{ flex: '0.5', color: '#fff', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', borderRadius: '0', textTransform: 'capitalize' }}
+                            >
                                 Buy Now
                             </Button>
                             <Button
+                                onClick={() => {
+                                    dispatch(addToCart({}));
+                                }}
                                 variant="text"
-                                sx={{ flex: '0.5', color: '#151411', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', border: '2px solid #F3F3F3', borderRadius: '0' }}
+                                sx={{
+                                    flex: '0.5',
+                                    color: '#151411',
+                                    fontSize: '18px',
+                                    fontWeight: '700',
+                                    lineHeight: '130%',
+                                    p: '15px 0',
+                                    border: '2px solid #F3F3F3',
+                                    borderRadius: '0',
+                                    textTransform: 'capitalize',
+                                }}
                             >
-                                Add to Chart
+                                Add to Cart
                             </Button>
                         </Box>
                     </Box>
@@ -138,6 +187,7 @@ function ProductById() {
                     <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'center', gap: '20px', mb: '100px' }}>{renderRelatedProducts}</Box>
                     <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'center', gap: '20px', flexWrap: 'wrap', mb: '80px' }}>{renderRelatedProducts}</Box>
                 </Box>
+                <ToastContainer />
                 <Footer />
             </Container>
         </Box>

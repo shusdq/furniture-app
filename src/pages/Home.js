@@ -9,16 +9,16 @@ import Testimonials from '../components/home/Testimonials';
 import Footer from '../components/footer/Footer';
 import Articles from '../components/home/Articles';
 
-function Home() {
+function Home({ products, posts }) {
     return (
         <Box>
             <Header />
             <DiscoverFurniture />
             <Benefits />
-            <Items />
+            <Items products={products} />
             <Craft />
             <Testimonials />
-            <Articles />
+            <Articles posts={posts} />
             <Footer />
         </Box>
     );

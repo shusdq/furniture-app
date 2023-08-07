@@ -1,14 +1,12 @@
 import { Box, Tab, Tabs, Typography, Button, Avatar } from '@mui/material';
 import React, { useState } from 'react';
 import CustomTabPanel from './CustomTabPanel';
-import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
-function Topics() {
+function Topics({ posts }) {
     const navigate = useNavigate();
     const [value, setValue] = useState(0);
     const [postLimit, setPostLimit] = useState(3);
-    const posts = useSelector(state => state.data.posts);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -127,7 +125,7 @@ function Topics() {
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', alignItems: 'center', m: '80px 0' }}>
                 <Typography variant="h2">Subscribe our newsletter</Typography>
                 <Button variant="contained" sx={{ maxHeight: '50px', fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
-                    Let`s Talk &#10132;
+                    let's Talk &#10132;
                 </Button>
             </Box>
             <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', alignItems: 'center', mb: '50px' }}>
@@ -135,7 +133,7 @@ function Topics() {
                     Subscribe our newsletter
                 </Typography>
                 <Button variant="contained" sx={{ fontSize: '14px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
-                    Let`s Talk &#10132;
+                    let's Talk &#10132;
                 </Button>
             </Box>
         </Box>

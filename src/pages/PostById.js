@@ -1,22 +1,16 @@
 import { Avatar, Box, Button, Container, Typography } from '@mui/material';
 import React from 'react';
 import Header from '../components/header/Header';
-import { useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
 import Footer from '../components/footer/Footer';
 import { getRelatedItems } from '../utils/relatedItems';
 
-function PostById() {
+function PostById({ posts }) {
     const navigate = useNavigate();
     const { id } = useParams();
-    const posts = useSelector(state => state.data.posts);
 
     const post = posts.find(post => post.id === id);
     const relatedPosts = getRelatedItems(posts, 3);
-
-    if (!post) {
-        return <p>Loading...</p>;
-    }
 
     const renderRelatedPosts = relatedPosts.map((relatedPost, index) => (
         <Box key={index}>
@@ -169,7 +163,7 @@ function PostById() {
                 <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', alignItems: 'center', m: '80px 0' }}>
                     <Typography variant="h2">Subscribe our newsletter</Typography>
                     <Button variant="contained" sx={{ maxHeight: '50px', fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
-                        Let`s Talk &#10132;
+                        let's Talk &#10132;
                     </Button>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', alignItems: 'center', mb: '50px' }}>
@@ -177,7 +171,7 @@ function PostById() {
                         Subscribe our newsletter
                     </Typography>
                     <Button variant="contained" sx={{ fontSize: '14px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
-                        Let`s Talk &#10132;
+                        let's Talk &#10132;
                     </Button>
                 </Box>
                 <Footer />

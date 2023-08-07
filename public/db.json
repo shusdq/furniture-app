@@ -1,0 +1,581 @@
+{
+    "products":[
+        {
+        "id":"1",
+        "name": "Sofa Set",
+        "title": "Elegant 3-Piece Sofa Set",
+        "description": "A luxurious and comfortable 3-piece sofa set with premium fabric and sturdy construction.",
+        "img": "/products/sofaset.webp",
+        "price": 899.99
+        },
+        {
+        "id":"2",
+        "name": "Dining Table",
+        "title": "Modern Glass-Top Dining Table",
+        "description": "A sleek and contemporary dining table with a tempered glass top and metal legs.",
+        "img": "/products/dining-table.webp",
+        "price": 449.50
+        },
+        {
+        "id":"3",
+        "name": "Bed Frame",
+        "title": "Classic Wooden Bed Frame",
+        "description": "A timeless bed frame made from high-quality wood with intricate carvings.",
+        "img": "/products/bed-frame.jpg",
+        "price": 699.00
+        },
+        {
+        "id":"4",
+        "name": "Wardrobe",
+        "title": "Spacious 4-Door Wardrobe",
+        "description": "A large wardrobe with four doors and ample storage space for your clothes and belongings.",
+        "img": "/products/wardrobe.webp",
+        "price": 799.99
+        },
+        {
+        "id":"5",
+        "name": "Coffee Table",
+        "title": "Contemporary Marble Coffee Table",
+        "description": "A stylish coffee table with a marble top and metallic legs, adding elegance to any living room.",
+        "img": "/products/coffee-table.jpg",
+        "price": 349.95
+        },
+        {
+        "id":"6",
+        "name": "Bookshelf",
+        "title": "Modern Open-Back Bookshelf",
+        "description": "A minimalist bookshelf with open-back design, perfect for displaying books and decor.",
+        "img": "/products/bookshelf.jpg",
+        "price": 199.00
+        },
+        {
+        "id":"7",
+        "name": "TV Stand",
+        "title": "Sleek TV Stand with Storage",
+        "description": "A functional TV stand with multiple shelves and cabinets to store media equipment.",
+        "img": "/products/tv-stand.jpg",
+        "price": 299.50
+        },
+        {
+        "id":"8",
+        "name": "Office Chair",
+        "title": "Ergonomic Mesh Office Chair",
+        "description": "An adjustable and breathable mesh office chair for maximum comfort during work hours.",
+        "img": "/products/office-chair.jpg",
+        "price": 189.95
+        },
+        {
+        "id":"9",
+        "name": "Dresser",
+        "title": "Vintage Dresser with Mirror",
+        "description": "A charming vintage dresser with a mirror, perfect for bedroom use.",
+        "img": "/products/dresser.jpg",
+        "price": 549.00
+        },
+        {
+        "id":"10",
+        "name": "Side Table",
+        "title": "Contemporary Side Table",
+        "description": "A versatile side table with a modern design, suitable for any room in your home.",
+        "img": "/products/side-table.jpg",
+        "price": 129.99
+        },
+        {
+        "id":"11",
+        "name": "L-Shaped Sofa",
+        "title": "Comfortable L-Shaped Sofa",
+        "description": "A spacious L-shaped sofa with plush cushions, perfect for relaxing with family and friends.",
+        "img": "/products/l-shaped-sofa.jpg",
+        "price": 999.00
+        },
+        {
+        "id":"12",
+        "name": "Chest of Drawers",
+        "title": "Traditional Chest of Drawers",
+        "description": "A traditional chest of drawers with multiple storage compartments for your clothing.",
+        "img": "/products/chest-of-drawers.webp",
+        "price": 379.50
+        },
+        {
+        "id":"13",
+        "name": "Dining Chairs",
+        "title": "Set of 4 Dining Chairs",
+        "description": "A set of four elegant dining chairs with comfortable cushioned seats.",
+        "img": "/products/dining-chairs.jpg",
+        "price": 279.00
+        },
+        {
+        "id":"14",
+        "name": "Folding Table",
+        "title": "Compact Folding Table",
+        "description": "A space-saving folding table that can be easily stored when not in use.",
+        "img": "/products/folding-table.jpg",
+        "price": 89.99
+        },
+        {
+        "id":"15",
+        "name": "Rocking Chair",
+        "title": "Classic Wooden Rocking Chair",
+        "description": "A classic wooden rocking chair for relaxation and enjoyment.",
+        "img": "/products/rocking-chair.jpg",
+        "price": 199.50
+        },
+        {
+        "id":"16",
+        "name": "Console Table",
+        "title": "Slim Console Table",
+        "description": "A slim and stylish console table for hallway or entryway use.",
+        "img": "/products/console-table.webp",
+        "price": 149.00
+        },
+        {
+        "id":"17",
+        "name": "Sectional Sofa",
+        "title": "Spacious Sectional Sofa",
+        "description": "A large and comfortable sectional sofa with a chaise lounge.",
+        "img": "/products/sectional-sofa.jpg",
+        "price": 1399.00
+        },
+        {
+        "id":"18",
+        "name": "Cabinet",
+        "title": "Rustic Wooden Cabinet",
+        "description": "A rustic wooden cabinet with intricate carvings and ample storage space.",
+        "img": "/products/cabinet.avif",
+        "price": 799.95
+        },
+        {
+        "id":"19",
+        "name": "Bar Stools",
+        "title": "Set of 2 Bar Stools",
+        "description": "A set of two modern bar stools with adjustable height.",
+        "img": "/products/bar-stools.jpg",
+        "price": 139.00
+        },
+        {
+        "id":"20",
+        "name": "Writing Desk",
+        "title": "Compact Writing Desk",
+        "description": "A compact writing desk with a pull-out drawer for storing stationery.",
+        "img": "/products/writing-desk.jpg",
+        "price": 249.50
+        },
+        {
+        "id":"21",
+        "name": "Accent Chair",
+        "title": "Elegant Accent Chair",
+        "description": "An elegant accent chair with a decorative design, perfect for the living room.",
+        "img": "/products/accent-chair.jpg",
+        "price": 299.00
+        },
+        {
+        "id":"22",
+        "name": "Nightstand",
+        "title": "Bedside Nightstand",
+        "description": "A bedside nightstand with a drawer and open shelf for your nighttime essentials.",
+        "img": "/products/nightstand.avif",
+        "price": 129.99
+        },
+        {
+        "id":"23",
+        "name": "Bean Bag Chair",
+        "title": "Comfortable Bean Bag Chair",
+        "description": "A comfortable and fun bean bag chair for lounging and relaxation.",
+        "img": "/products/bean-bag-chair.jpg",
+        "price": 79.95
+        },
+        {
+        "id":"24",
+        "name": "Buffet Table",
+        "title": "Elegant Buffet Table",
+        "description": "An elegant buffet table with storage cabinets, perfect for dining room use.",
+        "img": "/products/buffet-table.jpg",
+        "price": 499.00
+        },
+        {
+        "id":"25",
+        "name": "Shoe Rack",
+        "title": "Wooden Shoe Rack",
+        "description": "A wooden shoe rack with multiple tiers for organizing your footwear.",
+        "img": "/products/shoe-rack.webp",
+        "price": 89.50
+        },
+        {
+        "id":"26",
+        "name": "Chaise Lounge",
+        "title": "Classic Chaise Lounge",
+        "description": "A classic chaise lounge with soft upholstery, perfect for relaxation.",
+        "img": "/products/chaise-lounge.jpg",
+        "price": 579.00
+        },
+        {
+        "id":"27",
+        "name": "Computer Desk",
+        "title": "Modern Computer Desk",
+        "description": "A modern computer desk with a sleek design and spacious desktop.",
+        "img": "/products/computer-desk.jpg",
+        "price": 249.95
+        },
+        {
+        "id":"28",
+        "name": "Futon",
+        "title": "Convertible Futon Sofa",
+        "description": "A versatile futon sofa that can be converted into a bed for guests.",
+        "img": "/products/futon.jpg",
+        "price": 299.00
+        },
+        {
+        "id":"29",
+        "name": "Bar Cabinet",
+        "title": "Stylish Bar Cabinet",
+        "description": "A stylish bar cabinet with storage for drinks and glassware.",
+        "img": "/products/bar-cabinet.webp",
+        "price": 699.50
+        },
+        {
+        "id":"30",
+        "name": "Armchair",
+        "title": "Comfy Armchair",
+        "description": "A comfy armchair with a tufted backrest and padded armrests.",
+        "img": "/products/armchair.webp",
+        "price": 349.99
+        },
+        {
+        "id":"31",
+        "name": "Credenza",
+        "title": "Mid-Century Credenza",
+        "description": "A mid-century credenza with retro design and plenty of storage space.",
+        "img": "/products/credenza.jpg",
+        "price": 899.00
+        },
+        {
+        "id":"32",
+        "name": "Vanity Table",
+        "title": "Elegant Vanity Table",
+        "description": "An elegant vanity table with a mirror and drawers for makeup and accessories.",
+        "img": "/products/vanity-table.webp",
+        "price": 349.50
+        },
+        {
+        "id":"33",
+        "name": "Lounge Chair",
+        "title": "Modern Lounge Chair",
+        "description": "A modern lounge chair with a comfortable design, perfect for relaxation.",
+        "img": "/products/lounge-chair.webp",
+        "price": 449.00
+        },
+        {
+        "id":"34",
+        "name": "Ottoman",
+        "title": "Upholstered Ottoman",
+        "description": "An upholstered ottoman that serves as both a footrest and extra seating.",
+        "img": "/products/ottoman.avif",
+        "price": 129.95
+        },
+        {
+        "id":"35",
+        "name": "Bunk Bed",
+        "title": "Sturdy Bunk Bed",
+        "description": "A sturdy bunk bed with a ladder and safety rails, ideal for kids' bedrooms.",
+        "img": "/products/bunk-table.webp",
+        "price": 799.00
+        },
+        {
+        "id":"36",
+        "name": "Gaming Chair",
+        "title": "Ergonomic Gaming Chair",
+        "description": "An ergonomic gaming chair with lumbar support and adjustable armrests.",
+        "img": "/products/gaming-chair.webp",
+        "price": 349.99
+        },
+        {
+        "id":"37",
+        "name": "Sideboard",
+        "title": "Contemporary Sideboard",
+        "description": "A contemporary sideboard with storage for dining room essentials.",
+        "img": "/products/sideboard.jpg",
+        "price": 599.00
+        },
+        {
+        "id":"38",
+        "name": "Bench",
+        "title": "Rustic Wooden Bench",
+        "description": "A rustic wooden bench with a comfortable seat, ideal for entryways or gardens.",
+        "img": "/products/bench.jpg",
+        "price": 189.50
+        },
+        {
+        "id":"39",
+        "name": "Writing Chair",
+        "title": "Comfortable Writing Chair",
+        "description": "A comfortable writing chair with a cushioned seat for extended writing sessions.",
+        "img": "/products/writing-chair.jpg",
+        "price": 129.00
+        },
+        {
+        "id":"40",
+        "name": "Dresser with Mirror",
+        "title": "Stylish Dresser with Mirror",
+        "description": "A stylish dresser with a matching mirror, perfect for bedrooms.",
+        "img": "/products/dresser-with-mirror.jpg",
+        "price": 699.50
+        },
+        {
+        "id":"41",
+        "name": "Couch",
+        "title": "Cozy Couch",
+        "description": "A cozy couch with plush cushions and a sturdy wooden frame.",
+        "img": "/products/couch.jpg",
+        "price": 999.00
+        },
+        {
+        "id":"42",
+        "name": "Storage Bench",
+        "title": "Versatile Storage Bench",
+        "description": "A versatile storage bench with compartments to keep your belongings organized.",
+        "img": "/products/storage-bench.webp",
+        "price": 179.99
+        },
+        {
+        "id":"43",
+        "name": "Console Cabinet",
+        "title": "Console Cabinet with Drawers",
+        "description": "A console cabinet with drawers and a spacious top surface for display.",
+        "img": "/products/console-cabinet.jpg",
+        "price": 449.00
+        },
+        {
+        "id":"44",
+        "name": "Nesting Tables",
+        "title": "Set of 3 Nesting Tables",
+        "description": "A set of three nesting tables with a modern design and varying sizes.",
+        "img": "/products/nesting-tables.jpg",
+        "price": 249.50
+        },
+        {
+        "id":"45",
+        "name": "Bathroom Vanity",
+        "title": "Modern Bathroom Vanity",
+        "description": "A modern bathroom vanity with a sink and storage cabinets.",
+        "img": "/products/bathroom-vanity.webp",
+        "price": 799.00
+        },
+        {
+        "id":"46",
+        "name": "Chandelier",
+        "title": "Elegant Crystal Chandelier",
+        "description": "An elegant crystal chandelier to add a touch of sophistication to your space.",
+        "img": "/products/chandelier.jpg",
+        "price": 499.95
+        },
+        {
+        "id":"47",
+        "name": "Accent Table",
+        "title": "Decorative Accent Table",
+        "description": "A decorative accent table with a unique design, ideal for small spaces.",
+        "img": "/products/accent-table-mini.jpg",
+        "price": 139.50
+        },
+        {
+        "id":"48",
+        "name": "Folding Chairs",
+        "title": "Set of 4 Folding Chairs",
+        "description": "A set of four folding chairs that can be easily stored when not in use.",
+        "img": "/products/folding-chairs.webp",
+        "price": 99.99
+        },
+        {
+        "id":"49",
+        "name": "Canopy Bed",
+        "title": "Elegant Canopy Bed",
+        "description": "An elegant canopy bed with a sturdy frame and flowing drapes for a luxurious feel.",
+        "img": "/products/canopy-bed.webp",
+        "price": 1299.00
+        },
+        {
+        "id":"50",
+        "name": "Glider Recliner",
+        "title": "Comfortable Glider Recliner",
+        "description": "A comfortable glider recliner with plush cushions for ultimate relaxation.",
+        "img": "/products/glider-recliner.jpg",
+        "price": 399.00
+        },
+        {
+        "id":"51",
+        "name": "Bar Cart",
+        "title": "Stylish Bar Cart",
+        "description": "A stylish bar cart with wheels for easy movement and storage of drinks.",
+        "img": "/products/bar-cart.jpg",
+        "price": 219.50
+        },
+        {
+        "id":"52",
+        "name": "Bistro Set",
+        "title": "Outdoor Bistro Set",
+        "description": "An outdoor bistro set with a table and two chairs, perfect for small spaces.",
+        "img": "/products/bistro-set.webp",
+        "price": 199.99
+        },
+        {
+        "id":"53",
+        "name": "Wall Shelf",
+        "title": "Floating Wall Shelf",
+        "description": "A floating wall shelf that adds both style and functionality to your space.",
+        "img": "/products/wall-shelf.jpg",
+        "price": 69.95
+        },
+        {
+        "id":"54",
+        "name": "Futon Sofa Bed",
+        "title": "Convertible Futon Sofa Bed",
+        "description": "A versatile futon sofa bed with a comfortable mattress, ideal for guests.",
+        "img": "/products/futon-sofa-bed.jpg",
+        "price": 349.00
+        }
+    ], "posts": [
+        {
+            "id": "1",
+            "mainImage":"/posts/bath-window.jpg",
+            "article": "Tips and Trick",
+            "title": "This 400-Square-Foot New York Apartment Is Maximized With Custom Millwork",
+            "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+            "avatar": "https://picsum.photos/id/3/200/300",
+            "fullName": "Morgan Goldberg",
+            "date": "2023-08-22",
+            "additionalInfo": {
+                "firstTitle": "New York Apartment",
+                "firstText":" Necessitatibus deserunt odit iusto! Aliquam vulputate, magna non eleifend congue, nisl nulla imperdiet lectus, ut vestibulum nisi elit laoreet arcu. Curabitur non eros ut nisi rhoncus mattis. In felis mauris, iaculis sed egestas ut, euismod sit amet enim. Aliquam ac tincidunt metus. Cras sollicitudin sapien non ex placerat congue. Aliquam sagittis suscipit arcu, sit amet dignissim velit sollicitudin non. Maecenas id vulputate nulla, ac mattis tortor. Vivamus id laoreet ligula. Nulla sit amet leo vel elit tincidunt tincidunt sed eget justo. Pellentesque dolor nisl, tincidunt at orci vitae, malesuada faucibus erat. Nulla facilisi. Mauris dictum pulvinar placerat. Praesent feugiat tristique feugiat. Duis sed leo nunc. Nam eros lacus, rhoncus at justo ut, porta scelerisque enim. Aenean ligula ex, interdum et libero vitae, euismod posuere risus. Vestibulum molestie lobortis metus nec rutrum. Suspendisse consequat tincidunt enim, eget condimentum eros tempus id. Sed purus ipsum, posuere ac tristique id, volutpat quis felis. Vivamus tristique lectus lacus, in volutpat nisi feugiat a. Nullam lobortis suscipit dui sit amet condimentum. In nisl est, laoreet vel augue vitae, rutrum ornare enim. Vivamus ullamcorper sed nibh et aliquam. Integer tempus maximus eleifend. Proin feugiat congue massa, et pellentesque nunc tempor et. Pellentesque lacinia sagittis luctus. Vestibulum luctus erat id tellus sagittis auctor. Duis vestibulum eu libero quis molestie. Quisque nec blandit justo. Cras eu lacinia sem. Curabitur condimentum sed lacus sollicitudin tristique. Cras maximus sit amet mi ac facilisis. Aenean vestibulum erat eu ex lacinia tempus. Suspendisse erat sapien, pellentesque vitae sapien sed, tempor porta libero. Curabitur facilisis auctor blandit. Curabitur vel cursus urna. Morbi faucibus blandit pellentesque. Fusce tincidunt dictum tempus. Nulla efficitur enim id sapien laoreet, eget bibendum sapien fringilla. Nunc non varius diam. Integer bibendum elit vitae rutrum luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mauris mauris, accumsan nec tellus id, cursus semper odio. Mauris lacus eros, feugiat nec bibendum eget, eleifend euismod turpis. In vel felis vestibulum, porta justo suscipit, ornare ligula. Vivamus et ultricies lectus. Nunc eleifend ante turpis, nec hendrerit libero semper eu.",
+                "firstImage":"/posts/color-guide1.jpg",
+                "secondTitle": "Aliquam vulputate",
+                "secondText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget blandit sem, ac sagittis urna. Aliquam vulputate, magna non eleifend congue, nisl nulla imperdiet lectus, ut vestibulum nisi elit laoreet arcu. Curabitur non eros ut nisi rhoncus mattis. In felis mauris, iaculis sed egestas ut, euismod sit amet enim. Aliquam ac tincidunt metus. Cras sollicitudin sapien non ex placerat congue. Aliquam sagittis suscipit arcu, sit amet dignissim velit sollicitudin non. Maecenas id vulputate nulla, ac mattis tortor. Vivamus id laoreet ligula. Nulla sit amet leo vel elit tincidunt tincidunt sed eget justo. Pellentesque dolor nisl, tincidunt at orci vitae, malesuada faucibus erat. Nulla facilisi. Mauris dictum pulvinar placerat. Praesent feugiat tristique feugiat. Duis sed leo nunc. Nam eros lacus, rhoncus at justo ut, porta scelerisque enim. Aenean ligula ex, interdum et libero vitae, euismod posuere risus. Vestibulum molestie lobortis metus nec rutrum. Suspendisse consequat tincidunt enim, eget condimentum eros tempus id. Sed purus ipsum, posuere ac tristique id, volutpat quis felis. Vivamus tristique lectus lacus, in volutpat nisi feugiat a. Nullam lobortis suscipit dui sit amet condimentum. In nisl est, laoreet vel augue vitae, rutrum ornare enim. Vivamus ullamcorper sed nibh et aliquam. Integer tempus maximus eleifend. Proin feugiat congue massa, et pellentesque nunc tempor et. Pellentesque lacinia sagittis luctus. Vestibulum luctus erat id tellus sagittis auctor. Duis vestibulum eu libero quis molestie. Quisque nec blandit justo. Cras eu lacinia sem. Curabitur condimentum sed lacus sollicitudin tristique. Cras maximus sit amet mi ac facilisis. Aenean vestibulum erat eu ex lacinia tempus. Suspendisse erat sapien, pellentesque vitae sapien sed, tempor porta libero. Curabitur facilisis auctor blandit. Curabitur vel cursus urna. Morbi faucibus blandit pellentesque. Fusce tincidunt dictum tempus. Nulla efficitur enim id sapien laoreet, eget bibendum sapien fringilla. Nunc non varius diam. Integer bibendum elit vitae rutrum luctus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mauris mauris, accumsan nec tellus id, cursus semper odio. Mauris lacus eros, feugiat nec bibendum eget, eleifend euismod turpis. In vel felis vestibulum, porta justo suscipit, ornare ligula. Vivamus et ultricies lectus. Nunc eleifend ante turpis, nec hendrerit libero semper eu.",
+                "secondImage":"/posts/living-room.jpg"
+            }
+        },
+        {
+            "id": "2",
+            "mainImage":"/posts/living-room.jpg",
+            "article": "Interior Design",
+            "title": "How to make your interiors cooler and more stylish",
+            "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+            "avatar": "https://picsum.photos/id/4/200/300",
+            "fullName": "Rizal Ahmad",
+            "date": "2023-09-04",
+            "additionalInfo": {
+                "firstTitle": "Hendrerit purus",
+                "firstText":"Pellentesque pulvinar auctor tortor sed gravida. Sed vel lobortis lectus, non hendrerit purus. Suspendisse sed condimentum ante, nec tempor ante. Aenean semper euismod sem, sollicitudin feugiat lectus efficitur in. Praesent cursus odio non odio pretium, ac elementum sem dignissim. Cras molestie ornare mauris, quis venenatis metus dignissim vel. Ut eleifend, elit at tempor rhoncus, erat urna feugiat ipsum, sed rutrum velit mi ut nulla. Duis gravida leo vitae purus pretium feugiat. Phasellus ac pretium risus. Curabitur fringilla tincidunt eros eget egestas. Fusce purus ante, maximus eget vehicula vel, blandit eget est. In varius vulputate ipsum, et blandit diam tincidunt ut.",
+                "firstImage":"/posts/bath-window.jpg",
+                "secondTitle": "Curabitur pharetra",
+                "secondText":"Ut ut viverra turpis, dapibus scelerisque odio. Sed quis lacinia ante, ultrices vulputate tellus. Curabitur pharetra neque sed eros placerat, ac imperdiet tortor porta. Vivamus placerat lacus risus, quis tempor nulla vehicula a. Aliquam aliquam elit eu velit pretium pulvinar. Quisque porta lacinia est, sed viverra mi porttitor ac. Etiam hendrerit, risus sed molestie tristique, leo elit convallis quam, non lobortis diam nulla vel nisi. Proin molestie odio erat. Etiam vitae eleifend velit, nec faucibus ipsum. Nunc faucibus, nisi tincidunt iaculis rhoncus, quam dui pellentesque urna, quis dapibus eros quam ac enim. Sed volutpat vestibulum metus, imperdiet malesuada eros convallis eleifend. Morbi posuere lorem et risus eleifend, ut finibus nulla iaculis. Aliquam erat volutpat.",
+                "secondImage":"/posts/bedroom1.jpg"
+            }
+        },
+        {
+            "id": "3",
+            "mainImage":"/posts/bedroom1.jpg",
+            "article": "Color Guide",
+            "title": "20+ Best Kitchen Paint Colors That Make Kitchen Spaces Look More Fun",
+            "mainText":"Home terrace decorations are part of every decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+            "avatar": "https://picsum.photos/id/3/200/300",
+            "fullName": "Filipus Pendi",
+            "date": "2023-09-11",
+            "additionalInfo": {
+                "firstTitle": "Home terrace",
+                "firstText":"Maecenas ornare placerat eros eu rutrum. Ut porttitor pharetra lacus. Cras tincidunt gravida ornare. Proin sed dolor neque. Aenean odio magna, sollicitudin vel nisl ut, tincidunt mollis eros. Mauris et justo vestibulum, porttitor ante ac, sollicitudin massa. Maecenas consequat est sed elit blandit lacinia volutpat sed dui. Duis sit amet suscipit magna, laoreet dictum mauris. Sed ex nisl, semper eget mauris id, dapibus aliquet elit. Sed leo diam, lobortis tempus eleifend luctus, finibus nec odio. Sed ac neque mi. Integer efficitur mauris vitae sollicitudin rhoncus. Nam mollis neque at nulla dapibus vulputate.",
+                "firstImage":"/posts/living-room.jpg",
+                "secondTitle": "Maecenas ornare ",
+                "secondText":"Nulla egestas, sem eu lobortis dapibus, diam dolor euismod lacus, id vehicula sem augue in orci. In euismod commodo consectetur. Etiam cursus massa nec tortor finibus, varius molestie odio volutpat. Nulla posuere nec ante et ullamcorper. Suspendisse ut aliquam elit. Fusce quis eros et felis ultricies ullamcorper. Cras ex augue, blandit at nulla nec, suscipit varius lorem. Nunc dui leo, blandit non gravida ut, gravida et erat. Proin semper massa vitae imperdiet condimentum. Vestibulum in lorem eget felis accumsan vulputate at in ante. Fusce mollis, lorem ac hendrerit suscipit, enim diam mollis mauris, quis fringilla sapien metus finibus elit. Quisque in tempor sapien, venenatis suscipit urna. Pellentesque tincidunt tristique felis, sit amet suscipit sem aliquam vitae.",
+                "secondImage":"/posts/color-guide1.jpg"
+            }
+        },
+        {
+            "id": "4",
+            "mainImage":"/posts/color-guide1.jpg",
+            "article": "Design Inspiration",
+            "title": "New York Apartment Is Maximized With Custom Millwork",
+            "mainText":"Decoration or overall home design. Interiordesign. If by chance your house has enough space or space.",
+            "avatar": "https://picsum.photos/id/3/200/300",
+            "fullName": "Grace Marie",
+            "date": "2023-10-25",
+            "additionalInfo": {
+                "firstTitle": "Interiordesign",
+                "firstText":"Nullam id vestibulum turpis, sit amet elementum orci. Vestibulum et quam magna. Nullam rhoncus dui quis urna mollis elementum. Sed convallis odio eu nunc sollicitudin sollicitudin. Aenean porttitor nulla elit, sed hendrerit magna aliquam nec. Nulla eu condimentum velit. Aliquam eros leo, varius non arcu dignissim, imperdiet ullamcorper diam. In eget volutpat urna, non rhoncus ipsum. Nam vehicula ex sed efficitur consequat. Ut vel lectus ullamcorper, tempor ipsum in, vehicula dolor. Maecenas arcu lorem, sodales id metus eu, lacinia aliquam est. In in felis mattis, sagittis arcu at, pulvinar lectus. Phasellus massa dui, rhoncus eget nibh sed, convallis rutrum odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur vel dignissim erat.",
+                "firstImage":"/posts/living-room.jpg",
+                "secondTitle": "Nullam id",
+                "secondText":"Sed non mi eget sapien eleifend sollicitudin in sed urna. Praesent sollicitudin sagittis rhoncus. Phasellus eu ornare sem. Aliquam mattis, nulla eget luctus vulputate, est orci accumsan metus, porta aliquet sem sapien quis massa. In efficitur elementum augue vel tincidunt. Vestibulum a turpis ac elit aliquet finibus. Pellentesque a maximus nisl, id ultrices magna. Etiam semper orci nisl, eget venenatis erat auctor congue. Donec sed aliquam erat, ut sollicitudin velit. Nulla tempus posuere lacus, a aliquam sem egestas eu. Praesent quis quam lorem.",
+                "secondImage":"/posts/interior-design.jpg"
+            }
+        },
+        {
+            "id": "5",
+            "mainImage":"/posts/interior-design.jpg",
+            "article": "Tips and Trick",
+            "title": "10 Creative Ways to Maximize Storage in Small Bedrooms",
+            "mainText": "Storage is always a concern in small bedrooms. Learn how to maximize the space with these creative ideas for efficient storage solutions.",
+            "avatar": "https://picsum.photos/id/6/200/300",
+            "fullName": "Alexandra Smith",
+            "date": "2023-11-15",
+            "additionalInfo": {
+                "firstTitle": "Praesent sollicitudin",
+                "firstText": "Curabitur placerat mi a felis dignissim accumsan. Fusce in nulla eget metus viverra maximus. Pellentesque et dapibus velit. Phasellus in maximus justo, quis aliquet purus. Nam dolor massa, finibus vitae sollicitudin id, tincidunt at est. Maecenas ut metus eu ipsum feugiat dapibus. Ut euismod justo elementum gravida interdum. Suspendisse elementum ipsum ut pretium luctus. Phasellus placerat facilisis ligula, maximus dapibus quam suscipit sed. Suspendisse lorem orci, interdum vitae vestibulum a, mattis ac urna. Vivamus at nulla sagittis purus facilisis lobortis ut ac purus.",
+                "firstImage": "/posts/color-guide1.jpg",
+                "secondTitle": "Curabitur placerat",
+                "secondText": "Praesent odio ante, posuere non cursus a, tristique vitae ante. Nam varius elementum diam non sollicitudin. Aliquam id tortor placerat, tempus arcu et, vestibulum lorem. Ut sit amet placerat tellus, sed molestie sem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam ut ex eget orci lacinia hendrerit nec et mauris. In et orci eros. Proin at velit id lorem venenatis congue. Sed ornare nulla nunc, non ornare massa ultrices non. Etiam sit amet dui et nunc eleifend convallis quis pulvinar tellus. Nullam convallis orci nec pulvinar aliquam. Suspendisse neque lacus, tristique a pellentesque id, scelerisque ac ipsum. Nam vel magna vitae ipsum consectetur efficitur. Nulla pretium dapibus augue eget venenatis.",
+                "secondImage": "/posts/kitchen-dining.jpg"
+            }
+        },
+        {
+            "id": "6",
+            "mainImage":"/posts/interior2.jpg",
+            "article": "Interior Design",
+            "title": "5 Simple Ways to Create a Relaxing Home Sanctuary",
+            "mainText": "Transform your home into a calming sanctuary with these easy interior design tips. Create a space that promotes relaxation and reduces stress.",
+            "avatar": "https://picsum.photos/id/7/200/300",
+            "fullName": "Emily Johnson",
+            "date": "2023-11-28",
+            "additionalInfo": {
+                "firstTitle": "Praesent gravida",
+                "firstText": "Duis hendrerit et sem ac tristique. Sed vitae lacus maximus lectus aliquet efficitur nec et sapien. Praesent gravida, justo quis auctor congue, velit augue aliquam mi, ut auctor ex nisi euismod justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas molestie imperdiet elit sed venenatis. Integer mattis volutpat nibh, sed sodales enim mollis quis. In non mattis tellus, vel gravida odio. Sed dignissim erat augue, quis ullamcorper ex ultricies nec.",
+                "firstImage": "/posts/kitchen-dining.jpg",
+                "secondTitle": "Duis hendrerit",
+                "secondText": "Integer ornare a mauris eget porttitor. Morbi placerat ex quis ultrices efficitur. Nam at libero eget sapien accumsan lacinia facilisis in lectus. Suspendisse et libero in erat aliquam dictum. Pellentesque accumsan, nisl sit amet tincidunt bibendum, magna tellus imperdiet dolor, sed mattis augue nunc ac diam. Vivamus varius est vel faucibus lacinia. Sed rutrum rutrum porta. Fusce imperdiet arcu sit amet eros iaculis, et varius massa faucibus. Nulla placerat neque vitae sem ultricies tincidunt. Integer consequat ornare luctus. Sed sodales tellus vitae est cursus rutrum id ut sapien. Pellentesque in scelerisque ante, at tristique ipsum. Curabitur pretium risus ut urna ullamcorper, ut venenatis leo blandit. Mauris.",
+                "secondImage": "/posts/living-room-modern.jpg"
+            }
+        },
+        {
+            "id": "7",
+            "mainImage":"/posts/kitchen-dining.jpg",
+            "article": "Color Guide",
+            "title": "Brighten Up Your Living Room with Vibrant Color Schemes",
+            "mainText": "Discover how to infuse your living room with vibrant colors to add energy and liveliness to the space. Get inspired by these color schemes.",
+            "avatar": "https://picsum.photos/id/8/200/300",
+            "fullName": "Michael Thompson",
+            "date": "2023-12-12",
+            "additionalInfo": {
+                "firstTitle": "Brighten Up",
+                "firstText": "Curabitur tortor dui, dapibus sit amet bibendum et, bibendum nec augue. Integer nec fermentum massa, id gravida erat. Vestibulum consectetur euismod eleifend. Aliquam ornare tincidunt blandit. Curabitur semper nisl eros, sed vulputate lectus fermentum sed. Donec quis odio lacus. Suspendisse risus dui, scelerisque ac massa tristique, maximus gravida magna. Etiam volutpat, mauris vel lobortis faucibus, felis mauris porttitor augue, vel sollicitudin elit mauris quis risus. Vestibulum placerat justo ac magna pharetra bibendum. Suspendisse pulvinar molestie condimentum. Mauris ultrices id neque eu bibendum. Quisque ex nisl, rutrum vitae elit in, fermentum hendrerit nisi. Mauris aliquam sed lorem nec porttitor. Nam rutrum, ipsum sed lobortis porta, erat magna pellentesque nunc, sed imperdiet sem tortor a nulla. Sed euismod, nibh sed viverra sodales, nunc ex mollis libero, ac egestas risus mauris in turpis. Vestibulum vel nunc ipsum.",
+                "firstImage": "/posts/interior2.jpg",
+                "secondTitle": "Phasellus tincidunt",
+                "secondText": "Donec laoreet leo vitae rhoncus varius. Phasellus tincidunt tempor ornare. Mauris leo arcu, efficitur et justo quis, sollicitudin rhoncus ante. Maecenas tristique porttitor mi in fermentum. Pellentesque laoreet id purus sit amet blandit. Suspendisse semper libero commodo viverra tincidunt. Aenean at mollis magna, aliquet sodales nisi. Cras vehicula, nisi euismod consectetur fringilla, ligula nulla tempus arcu, sed faucibus mauris mauris auctor ipsum. Aliquam dapibus vitae ex nec sagittis. Cras vehicula tellus id ligula scelerisque, eget pharetra elit sagittis. Phasellus pellentesque viverra scelerisque. Sed et finibus diam, quis interdum augue. Donec urna nibh, hendrerit et quam ut, auctor mollis nunc. Phasellus porttitor arcu ex, eget vulputate enim molestie sed. Vivamus tincidunt nulla non pulvinar congue.",
+                "secondImage": "/posts/living-room-modern.jpg"
+            }
+        },
+        {
+            "id": "8",
+            "mainImage": "/posts/living-room-modern.jpg",
+            "article": "Design Inspiration",
+            "title": "10 Stunning Home Office Ideas for Increased Productivity",
+            "mainText": "Working from home? Elevate your home office with these stunning design ideas that boost productivity and create a comfortable work environment.",
+            "avatar": "https://picsum.photos/id/9/200/300",
+            "fullName": "Christopher Lee",
+            "date": "2023-12-24",
+            "additionalInfo": {
+                "firstTitle": "Sed venenatis",
+                "firstText": "Integer dignissim elit tortor, vel placerat urna viverra vel. Sed venenatis eros eu libero condimentum egestas. Mauris sagittis blandit semper. Curabitur at faucibus tortor, in varius ex. Vivamus elementum, quam nec dapibus ullamcorper, metus odio maximus est, pellentesque dictum sem risus id leo. Cras nulla velit, facilisis quis efficitur et, mattis non enim. Praesent egestas sem vel massa cursus commodo. Nunc eget pellentesque nulla. Vivamus tincidunt dapibus elit a eleifend. Duis magna est, scelerisque sed quam et, bibendum imperdiet lectus. Phasellus mollis elit vitae libero volutpat, id pretium lectus egestas. Suspendisse eu diam sed risus varius ultricies sed sollicitudin eros. Sed pharetra lectus efficitur massa ultricies, sit amet tincidunt metus luctus. Vivamus nec ornare felis, at sodales est. Etiam eget nisl lacus.",
+                "firstImage": "/posts/interior-design.jpg",
+                "secondTitle": "Nulla eget",
+                "secondText": "Vestibulum at nisi condimentum, molestie massa non, euismod nibh. Nulla eget nulla condimentum, interdum elit id, aliquam risus. Pellentesque in nulla mattis nulla varius fermentum. Etiam non est purus. Duis et laoreet turpis. Sed scelerisque lacus vel lacus aliquam vehicula. Nunc non nisi gravida, porttitor libero eu, blandit augue. Etiam et mi condimentum, aliquam ante a, pellentesque arcu. Pellentesque nec placerat diam. Donec aliquam, eros hendrerit vehicula varius, dui nisl suscipit ex, id sagittis lacus neque sed tortor. Nullam accumsan sollicitudin nisi, ut ultricies sapien rhoncus eget. Vivamus dapibus massa sed mi porttitor finibus. Aenean dictum viverra erat, vitae convallis sapien cursus nec. Ut in velit a ex accumsan mattis. Fusce ullamcorper consectetur mi vitae interdum. Phasellus felis nunc, varius in eros eget, tristique vestibulum est.",
+                "secondImage": "/posts/interior2.jpg"
+            }
+        }
+    ]
+}

@@ -1,10 +1,7 @@
 import { Box, MenuItem, Select, SvgIcon, TextField, Typography } from '@mui/material';
 import React from 'react';
-import { useSelector } from 'react-redux';
 
-function ProductsFilter({ filter, setFilter }) {
-    const products = useSelector(state => state.data.products);
-
+function ProductsFilter({ products, filter, setFilter }) {
     const handleSortChange = event => {
         const selectedSort = event.target.value;
         if (['', 'title', 'description'].includes(selectedSort)) {

@@ -5,12 +5,12 @@ import ProductsCarousel from '../components/products/ProductsCarousel';
 import TotalProducts from '../components/products/TotalProducts';
 import Footer from '../components/footer/Footer';
 
-function Products() {
+function Products({ products }) {
     return (
         <Box>
             <Header />
             <ProductsCarousel />
-            <TotalProducts />
+            <TotalProducts products={products} />
             <Footer />
         </Box>
     );

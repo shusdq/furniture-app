@@ -3,7 +3,7 @@ import React from 'react';
 
 function DiscoverFurniture() {
     return (
-        <Container maxWidth="lg">
+        <Container>
             <Box sx={{ textAlign: 'center' }}>
                 <Box sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '30px', margin: '100px 0 50px' }}>
                     <Typography variant="h1" sx={{ position: 'relative', maxWidth: '730px', lineHeight: '130%' }}>
@@ -135,7 +135,7 @@ function DiscoverFurniture() {
                             ),
                         }}
                     />
-                    <Box component="img" src="/images/rectangle.png" maxWidth="lg" sx={{ width: '100%', height: 'auto', position: 'absolute', top: '35px', left: '0', zIndex: '-1' }}></Box>
+                    <Box component="img" src="/images/rectangle.png" sx={{ width: '100%', height: 'auto', position: 'absolute', top: '35px', left: '0', zIndex: '-1' }}></Box>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '30px', margin: '50px 0 30px' }}>
                     <Typography variant="h3" sx={{ position: 'relative', maxWidth: '730px', lineHeight: '130%' }}>

@@ -1,40 +1,39 @@
 import React, { useState } from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
+import { AppBar, Box, Container, IconButton, Menu, MenuItem, SvgIcon, Toolbar, Typography, Button, Badge } from '@mui/material';
 import ShoppingBagOutlinedIcon from '@mui/icons-material/ShoppingBagOutlined';
-import { SvgIcon } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
 import { useNavigate } from 'react-router-dom';
-
-const settings = ['Logout'];
+import { useSelector } from 'react-redux';
+import styled from '@emotion/styled';
 
 function ResponsiveAppBar() {
     const navigate = useNavigate();
     const [anchorElNav, setAnchorElNav] = useState(null);
-    const [anchorElUser, setAnchorElUser] = useState(null);
+    const cart = useSelector(state => state.cart.cart);
+
+    const getTotalQuantity = () => {
+        let total = 0;
+        cart.forEach(item => {
+            total += item.quantity;
+        });
+        return total;
+    };
+
+    const StyledBadge = styled(Badge)(({ theme }) => ({
+        '& .MuiBadge-badge': {
+            right: -3,
+            top: 13,
+            border: `2px solid ${theme.palette.background.paper}`,
+            padding: '0 4px',
+        },
+    }));
 
     const handleOpenNavMenu = event => {
         setAnchorElNav(event.currentTarget);
     };
-    const handleOpenUserMenu = event => {
-        setAnchorElUser(event.currentTarget);
-    };
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
-    };
-
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
     };
 
     return (
@@ -205,35 +204,18 @@ function ResponsiveAppBar() {
                         </Button>
                     </Box>
 
-                    <Box sx={{ flexGrow: 0, display: 'flex', alignItems: 'center', gap: '10px' }}>
-                        <ShoppingBagOutlinedIcon />
-                        <Tooltip title="Open settings">
-                            <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                                <Avatar style={{ width: '30px', height: '30px' }} alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                            </IconButton>
-                        </Tooltip>
-                        <Menu
-                            sx={{ mt: '45px' }}
-                            id="menu-appbar"
-                            anchorEl={anchorElUser}
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            open={Boolean(anchorElUser)}
-                            onClose={handleCloseUserMenu}
-                        >
-                            {settings.map(setting => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
+                    <Box
+                        onClick={() => {
+                            navigate('/cart');
+                        }}
+                        sx={{ position: 'relative', flexGrow: 0, display: 'flex', alignItems: 'center', gap: '10px', cursor: 'pointer' }}
+                    >
+                        <IconButton>
+                            <StyledBadge badgeContent={getTotalQuantity()} color="primary">
+                                <ShoppingBagOutlinedIcon fontSize="large" sx={{ display: { xs: 'none', md: 'flex' }, fill: 'black' }} />
+                                <ShoppingBagOutlinedIcon fontSize="medium" sx={{ display: { xs: 'flex', md: 'none' }, fill: 'black' }} />
+                            </StyledBadge>
+                        </IconButton>
                     </Box>
                 </Toolbar>
             </Container>
