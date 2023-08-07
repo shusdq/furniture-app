@@ -20,7 +20,7 @@ function AboutUs() {
                         if you want to see our old products please enter the name of the item
                     </Typography>
                     <video style={{ width: '100%', height: 'auto' }} controls>
-                        <source src="" type="text/html" />
+                        <source src="https://www.youtube.com/watch?v=F1B9Fk_SgI0&list=RDVrDfSZ_6f4U&index=20" type="text/html" />
                     </video>
                 </Box>
                 <Box sx={{ textAlign: 'center', display: { xs: 'flex', md: 'none' }, flexDirection: 'column', justifyContent: 'center', mb: '100px' }}>
@@ -31,7 +31,7 @@ function AboutUs() {
                         We display products based on the latest products we have, if you want to see our old products please enter the name of the item
                     </Typography>
                     <video style={{ width: '100%', height: 'auto' }} controls>
-                        <source src="" type="text/html" />
+                        <source src="https://www.youtube.com/watch?v=F1B9Fk_SgI0&list=RDVrDfSZ_6f4U&index=20" type="text/html" />
                     </video>
                 </Box>
                 <OurMission />

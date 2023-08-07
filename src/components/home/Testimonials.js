@@ -1,5 +1,5 @@
 import { Avatar, Box, Container, SvgIcon, Typography } from '@mui/material';
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 const responsive = {
@@ -21,7 +21,7 @@ const responsive = {
 };
 
 function Testimonials() {
-    const [people, setPeople] = useState([
+    const people = [
         {
             fullName: 'Gretchen Stevens',
             image: 'https://picsum.photos/id/21/500/500',
@@ -59,7 +59,7 @@ function Testimonials() {
             comment: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, harum ratione sapiente inventore distinctio quod!',
             grade: '4.2',
         },
-    ]);
+    ];
 
     const renderPeoples = people.map((person, index) => (
         <Box key={index}>

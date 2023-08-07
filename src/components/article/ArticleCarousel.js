@@ -1,6 +1,5 @@
 import { Avatar, Box, Typography } from '@mui/material';
 import React from 'react';
-import { useSelector } from 'react-redux';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { useNavigate } from 'react-router-dom';

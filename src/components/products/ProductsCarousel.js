@@ -1,32 +1,16 @@
 import { Box, Typography } from '@mui/material';
-import React, { useState } from 'react';
+import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-const responsive = {
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 1,
-        slidesToSlide: 1, // optional, default to 1.
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 1,
-        slidesToSlide: 1, // optional, default to 1.
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
-        slidesToSlide: 1, // optional, default to 1.
-    },
-};
+import { responsive } from '../../utils/responsive';
 
 function ProductsCarousel() {
-    const [products, setProducts] = useState([
+    const products = [
         { title: 'Bookshelf', image: '/images/rectangle1.png', description: 'Get 40% off for the first transaction on Lalasia' },
         { title: 'Lamp', image: '/images/rectangle2.png', description: 'Get 40% off for the first transaction on Lalasia' },
         { title: 'Sofa', image: '/images/rectangle3.jpg', description: 'Get 40% off for the first transaction on Lalasia' },
         { title: 'Table', image: '/images/rectangle4.png', description: 'Get 40% off for the first transaction on Lalasia' },
-    ]);
+    ];
 
     const renderProducts = products.map((product, index) => (
         <Box key={index}>
