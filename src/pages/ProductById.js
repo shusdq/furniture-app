@@ -47,7 +47,9 @@ function ProductById({ products }) {
                 <Typography variant="h3" sx={{ mb: '5px' }}>
                     {relatedProduct.title}
                 </Typography>
-                <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '20px' }}>{relatedProduct.description}</Typography>
+                <Typography variant="p1" sx={{ color: '#AFADB5', mb: '20px' }}>
+                    {relatedProduct.description}
+                </Typography>
                 <Typography variant="h3">${relatedProduct.price}</Typography>
             </Box>
             <Box
@@ -64,12 +66,16 @@ function ProductById({ products }) {
                 }}
             >
                 <Box component="img" src={relatedProduct.img} sx={{ width: '100%', height: 'auto', maxWidth: '390px', mb: '15px' }}></Box>
-                <Typography sx={{ fontSize: '12px', fontWeight: '700', lineHeight: '180%', color: '#AFADB5', mb: '5px' }}>{relatedProduct.name}</Typography>
+                <Typography variant="l4" sx={{ color: '#AFADB5', mb: '5px' }}>
+                    {relatedProduct.name}
+                </Typography>
                 <Typography variant="h6" sx={{ mb: '5px' }}>
                     {relatedProduct.title}
                 </Typography>
-                <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '10px', maxWidth: '350px' }}>{relatedProduct.description}</Typography>
-                <Typography variant="h6">${relatedProduct.price}</Typography>
+                <Typography variant="p4" sx={{ color: '#AFADB5', mb: '10px', maxWidth: '350px' }}>
+                    {relatedProduct.description}
+                </Typography>
+                <Typography variant="h6Plus">${relatedProduct.price}</Typography>
             </Box>
         </Box>
     ));
@@ -84,7 +90,9 @@ function ProductById({ products }) {
                         <Typography variant="h2" sx={{ mb: '10px' }}>
                             {product.name}
                         </Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '30px' }}>{product.title}</Typography>
+                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '30px' }}>
+                            {product.title}
+                        </Typography>
                         <Typography variant="h5" sx={{ mb: '20px' }}>
                             Color:
                         </Typography>
@@ -94,7 +102,9 @@ function ProductById({ products }) {
                             <Box sx={{ width: '50px', height: '50px', backgroundColor: '#C5A26E' }}></Box>
                             <Box sx={{ width: '50px', height: '50px', backgroundColor: '#D8DBE0' }}></Box>
                         </Box>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '30px' }}>{product.description}</Typography>
+                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '30px' }}>
+                            {product.description}
+                        </Typography>
                         <Typography variant="h2" sx={{ mb: '50px' }}>
                             ${product.price}
                         </Typography>
@@ -102,7 +112,17 @@ function ProductById({ products }) {
                             <Button
                                 onClick={handleOpen}
                                 variant="contained"
-                                sx={{ flex: '0.5', color: '#fff', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', borderRadius: '0', textTransform: 'capitalize' }}
+                                sx={{
+                                    flex: '0.5',
+                                    color: '#fff',
+                                    fontFamily: "'Eudoxus Sans',sans-serif",
+                                    fontSize: '18px',
+                                    fontWeight: '700',
+                                    lineHeight: '130%',
+                                    p: '15px 0',
+                                    borderRadius: '0',
+                                    textTransform: 'capitalize',
+                                }}
                             >
                                 Buy Now
                             </Button>
@@ -115,6 +135,7 @@ function ProductById({ products }) {
                                 sx={{
                                     flex: '0.5',
                                     color: '#151411',
+                                    fontFamily: "'Eudoxus Sans',sans-serif",
                                     fontSize: '18px',
                                     fontWeight: '700',
                                     lineHeight: '130%',
@@ -135,15 +156,21 @@ function ProductById({ products }) {
                         <Typography variant="h3" sx={{ mb: '5px' }}>
                             {product.name}
                         </Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '20px' }}>{product.title}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#151411', mb: '5px' }}>Color:</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5', mb: '20px' }}>
+                            {product.title}
+                        </Typography>
+                        <Typography variant="p3" sx={{ color: '#151411', mb: '5px' }}>
+                            Color:
+                        </Typography>
                         <Box sx={{ display: 'flex', mb: '20px' }}>
                             <Box sx={{ width: '30px', height: '30px', backgroundColor: '#151411' }}></Box>
                             <Box sx={{ width: '30px', height: '30px', backgroundColor: '#314443' }}></Box>
                             <Box sx={{ width: '30px', height: '30px', backgroundColor: '#C5A26E' }}></Box>
                             <Box sx={{ width: '30px', height: '30px', backgroundColor: '#D8DBE0' }}></Box>
                         </Box>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '15px' }}>{product.description}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5', mb: '15px' }}>
+                            {product.description}
+                        </Typography>
                         <Typography variant="h3" sx={{ mb: '30px' }}>
                             ${product.price}
                         </Typography>
@@ -151,7 +178,17 @@ function ProductById({ products }) {
                             <Button
                                 onClick={handleOpen}
                                 variant="contained"
-                                sx={{ flex: '0.5', color: '#fff', fontSize: '18px', fontWeight: '700', lineHeight: '130%', p: '15px 0', borderRadius: '0', textTransform: 'capitalize' }}
+                                sx={{
+                                    flex: '0.5',
+                                    color: '#fff',
+                                    fontFamily: "'Eudoxus Sans',sans-serif",
+                                    fontSize: '18px',
+                                    fontWeight: '700',
+                                    lineHeight: '130%',
+                                    p: '15px 0',
+                                    borderRadius: '0',
+                                    textTransform: 'capitalize',
+                                }}
                             >
                                 Buy Now
                             </Button>
@@ -163,6 +200,7 @@ function ProductById({ products }) {
                                 sx={{
                                     flex: '0.5',
                                     color: '#151411',
+                                    fontFamily: "'Eudoxus Sans',sans-serif",
                                     fontSize: '18px',
                                     fontWeight: '700',
                                     lineHeight: '130%',

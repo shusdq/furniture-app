@@ -34,7 +34,12 @@ function TotalCart() {
     return (
         <Box>
             <Box sx={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', mb: '100px' }}>
-                <Button variant="contained" onClick={handleOpen} disabled={cart.length === 0} sx={{ textTransform: 'capitalize', fontSize: '18px', fontWeight: '700' }}>
+                <Button
+                    variant="contained"
+                    onClick={handleOpen}
+                    disabled={cart.length === 0}
+                    sx={{ textTransform: 'capitalize', fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', fontWeight: '700' }}
+                >
                     Checkout &#183; ${Number(getTotal().toFixed(2))}
                 </Button>
                 <Submit onCheckoutConfirm={onCheckoutConfirm} cart={cart} onClose={handleClose} open={open} />

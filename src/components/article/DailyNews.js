@@ -15,15 +15,15 @@ function DailyNews({ posts }) {
                 sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column', ':hover': { boxShadow: '0px 0px 20px 0px rgba(0,0,0,0.75)' }, cursor: 'pointer', p: '10px', borderRadius: '8px' }}
             >
                 <Box component="img" src={post.mainImage} sx={{ width: '100%', height: 'auto', maxWidth: '520px', mb: '20px' }}></Box>
-                <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '10px' }}>{post.article}</Typography>
+                <Typography variant="p1" sx={{ color: '#AFADB5', mb: '10px' }}>
+                    {post.article}
+                </Typography>
                 <Typography variant="h3" sx={{ overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '1', WebkitBoxOrient: 'vertical' }}>
                     {post.title}
                 </Typography>
                 <Typography
+                    variant="p1"
                     sx={{
-                        fontSize: '18px',
-                        fontWeight: '500',
-                        lineHeight: '180%',
                         color: '#AFADB5',
                         mb: '15px',
                         overflow: 'hidden',
@@ -37,8 +37,10 @@ function DailyNews({ posts }) {
                 </Typography>
                 <Box sx={{ display: 'flex', gap: '15px' }}>
                     <Avatar src={post.avatar} style={{ width: '28px', height: '28px' }}></Avatar>
-                    <Typography variant="h6">{post.fullName}</Typography>
-                    <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{post.date}</Typography>
+                    <Typography variant="h6Plus">{post.fullName}</Typography>
+                    <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                        {post.date}
+                    </Typography>
                 </Box>
             </Box>
             <Box
@@ -48,15 +50,15 @@ function DailyNews({ posts }) {
                 sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', ':hover': { boxShadow: '0px 0px 20px 0px rgba(0,0,0,0.75)' }, cursor: 'pointer', p: '10px', borderRadius: '8px' }}
             >
                 <Box component="img" src={post.mainImage} sx={{ width: '100%', height: 'auto', maxWidth: '520px', mb: '15px' }}></Box>
-                <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '5px' }}>{post.article}</Typography>
-                <Typography variant="h6" sx={{ overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical' }}>
+                <Typography variant="p4" sx={{ color: '#AFADB5', mb: '5px' }}>
+                    {post.article}
+                </Typography>
+                <Typography variant="h6Plus" sx={{ overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical' }}>
                     {post.title}
                 </Typography>
                 <Typography
+                    variant="p4"
                     sx={{
-                        fontSize: '12px',
-                        fontWeight: '500',
-                        lineHeight: '180%',
                         color: '#AFADB5',
                         mb: '15px',
                         overflow: 'hidden',
@@ -71,8 +73,12 @@ function DailyNews({ posts }) {
                 </Typography>
                 <Box sx={{ display: 'flex', gap: '5px' }}>
                     <Avatar src={post.avatar} style={{ width: '20px', height: '20px' }}></Avatar>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '700', lineHeight: '180%', color: '#151411' }}>{post.fullName}</Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{post.date}</Typography>
+                    <Typography variant="l4" sx={{ color: '#151411' }}>
+                        {post.fullName}
+                    </Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        {post.date}
+                    </Typography>
                 </Box>
             </Box>
         </Box>

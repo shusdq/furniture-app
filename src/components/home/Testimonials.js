@@ -87,7 +87,9 @@ function Testimonials() {
                             </defs>
                         </svg>
                     </SvgIcon>
-                    <Typography sx={{ color: '#AFADB5', fontSize: '18px', fontWeight: '500', lineHeight: '180%', mb: '20px' }}>{person.comment}</Typography>
+                    <Typography variant="p1" sx={{ display: 'flex', color: '#AFADB5', mb: '20px' }}>
+                        {person.comment}
+                    </Typography>
                 </Box>
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
@@ -135,13 +137,15 @@ function Testimonials() {
                             </defs>
                         </svg>
                     </SvgIcon>
-                    <Typography sx={{ color: '#AFADB5', fontSize: '14px', fontWeight: '500', lineHeight: '180%', mb: '15px' }}>{person.comment}</Typography>
+                    <Typography variant="p3" sx={{ display: 'flex', color: '#AFADB5', mb: '15px' }}>
+                        {person.comment}
+                    </Typography>
                 </Box>
 
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                         <Avatar sx={{ width: 35, height: 35 }} alt={person.fullName} src={person.image}></Avatar>
-                        <Typography variant="h5">{person.fullName}</Typography>
+                        <Typography variant="h6Plus">{person.fullName}</Typography>
                     </Box>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <SvgIcon>
@@ -156,7 +160,7 @@ function Testimonials() {
                                 />
                             </svg>
                         </SvgIcon>
-                        <Typography variant="h6"> {person.grade}</Typography>
+                        <Typography variant="h6Plus"> {person.grade}</Typography>
                     </Box>
                 </Box>
             </Box>

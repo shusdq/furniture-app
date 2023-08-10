@@ -4,8 +4,11 @@ import React from 'react';
 function OurMission() {
     return (
         <Box>
-            <Typography variant="h5" sx={{ color: 'secondary.dark', mb: '15px' }}>
-                Our Mission
+            <Typography variant="h5" sx={{ display: { xs: 'none', md: 'flex' }, color: 'secondary.dark', mb: '10px' }}>
+                Our mision
+            </Typography>
+            <Typography variant="h6Plus" sx={{ display: { xs: 'flex', md: 'none' }, color: 'secondary.dark', mb: '10px' }}>
+                Our mision
             </Typography>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, mb: '160px' }}>
                 <Box sx={{ flex: '0.5' }}>
@@ -15,19 +18,25 @@ function OurMission() {
                     <Box sx={{ display: 'flex', gap: '50px' }}>
                         <Box>
                             <Typography variant="h2">20+</Typography>
-                            <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Years Experience</Typography>
+                            <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                                Years Experience
+                            </Typography>
                         </Box>
                         <Box>
                             <Typography variant="h2">483</Typography>
-                            <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Happy Client</Typography>
+                            <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                                Happy Client
+                            </Typography>
                         </Box>
                         <Box>
                             <Typography variant="h2">150+</Typography>
-                            <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Project Finished</Typography>
+                            <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                                Project Finished
+                            </Typography>
                         </Box>
                     </Box>
                 </Box>
-                <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', flex: '0.5' }}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', flex: '0.5', gap: '15px' }}>
                     <Box sx={{ display: 'flex', gap: '30px', justifyContent: 'flex-end' }}>
                         <SvgIcon>
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -64,10 +73,8 @@ function OurMission() {
                                 24/7 Supports
                             </Typography>
                             <Typography
+                                variant="p1"
                                 sx={{
-                                    fontSize: '18px',
-                                    fontWeight: '500',
-                                    lineHeight: '180%',
                                     color: '#AFADB5',
                                     maxWidth: '500px',
                                     mb: '30px',
@@ -105,10 +112,8 @@ function OurMission() {
                                 Free Consultation
                             </Typography>
                             <Typography
+                                variant="p1"
                                 sx={{
-                                    fontSize: '18px',
-                                    fontWeight: '500',
-                                    lineHeight: '180%',
                                     color: '#AFADB5',
                                     maxWidth: '500px',
                                     mb: '30px',
@@ -146,10 +151,8 @@ function OurMission() {
                                 Overall Guarantee
                             </Typography>
                             <Typography
+                                variant="p1"
                                 sx={{
-                                    fontSize: '18px',
-                                    fontWeight: '500',
-                                    lineHeight: '180%',
                                     color: '#AFADB5',
                                     maxWidth: '500px',
                                     mb: '30px',
@@ -169,19 +172,25 @@ function OurMission() {
                     <Box sx={{ display: 'flex', gap: '30px', mb: '20px' }}>
                         <Box>
                             <Typography variant="h3">20+</Typography>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Years Experience</Typography>
+                            <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                                Years Experience
+                            </Typography>
                         </Box>
                         <Box>
                             <Typography variant="h3">483</Typography>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Happy Client</Typography>
+                            <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                                Happy Client
+                            </Typography>
                         </Box>
                         <Box>
                             <Typography variant="h3">150+</Typography>
-                            <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Project Finished</Typography>
+                            <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                                Project Finished
+                            </Typography>
                         </Box>
                     </Box>
                 </Box>
-                <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', gap: '10px' }}>
                     <Box sx={{ display: 'flex', gap: '30px' }}>
                         <SvgIcon>
                             <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -218,10 +227,8 @@ function OurMission() {
                                 24/7 Supports
                             </Typography>
                             <Typography
+                                variant="p3"
                                 sx={{
-                                    fontSize: '14px',
-                                    fontWeight: '500',
-                                    lineHeight: '180%',
                                     color: '#AFADB5',
                                     maxWidth: '500px',
                                     mb: '25px',
@@ -259,10 +266,8 @@ function OurMission() {
                                 Free Consultation
                             </Typography>
                             <Typography
+                                variant="p3"
                                 sx={{
-                                    fontSize: '14px',
-                                    fontWeight: '500',
-                                    lineHeight: '180%',
                                     color: '#AFADB5',
                                     maxWidth: '500px',
                                     mb: '25px',
@@ -300,10 +305,8 @@ function OurMission() {
                                 Overall Guarantee
                             </Typography>
                             <Typography
+                                variant="p3"
                                 sx={{
-                                    fontSize: '14px',
-                                    fontWeight: '500',
-                                    lineHeight: '180%',
                                     color: '#AFADB5',
                                     maxWidth: '500px',
                                     mb: '25px',

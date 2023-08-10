@@ -1,13 +1,18 @@
-import { Grid, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import React from 'react';
 import ProductItem from './ProductItem';
 
 function ProductsList({ products }) {
     if (!products.length) {
         return (
-            <Typography variant="h1" sx={{ textAlign: 'center', mb: '100px' }}>
-                Products not found!
-            </Typography>
+            <Box>
+                <Typography variant="h1" sx={{ display: { xs: 'none', md: 'flex', justifyContent: 'center' }, mb: '100px' }}>
+                    Products not found!
+                </Typography>
+                <Typography variant="h3" sx={{ display: { xs: 'flex', md: 'none', justifyContent: 'center' }, mb: '100px' }}>
+                    Products not found!
+                </Typography>
+            </Box>
         );
     }
 

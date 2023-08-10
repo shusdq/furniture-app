@@ -11,7 +11,7 @@ function OurTeam() {
                 <Typography variant="h2" sx={{ maxWidth: '500px' }}>
                     Meet our leading and strong team
                 </Typography>
-                <Typography sx={{ maxWidth: '450px', fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                <Typography sx={{ maxWidth: '450px', color: '#AFADB5' }}>
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                 </Typography>
             </Box>
@@ -19,7 +19,7 @@ function OurTeam() {
                 <Typography variant="h3" sx={{ mb: '20px' }}>
                     Meet our leading and strong team
                 </Typography>
-                <Typography sx={{ maxWidth: '400px', fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                <Typography variant="p3" sx={{ maxWidth: '400px', color: '#AFADB5' }}>
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                 </Typography>
             </Box>
@@ -29,42 +29,54 @@ function OurTeam() {
                     <Typography variant="h3" sx={{ mb: '5px' }}>
                         Jesse Depp
                     </Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Founder & CEO</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                        Founder & CEO
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/2.png" sx={{ mb: '25px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h3" sx={{ mb: '5px' }}>
                         Margareth Carter
                     </Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>COO</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                        COO
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/3.png" sx={{ mb: '25px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h3" sx={{ mb: '5px' }}>
                         Andrew Taggart
                     </Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Developer</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                        Developer
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/4.png" sx={{ mb: '25px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h3" sx={{ mb: '5px' }}>
                         Grace Marie
                     </Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Manager</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                        Manager
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/5.png" sx={{ mb: '25px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h3" sx={{ mb: '5px' }}>
                         Conter Spell
                     </Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Senior Designer</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                        Senior Designer
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/6.png" sx={{ mb: '25px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h3" sx={{ mb: '5px' }}>
                         Messi Muerto
                     </Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Marketer</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
+                        Marketer
+                    </Typography>
                 </Box>
             </Box>
             <Box sx={{ display: { xs: 'flex', md: 'none' }, justifyContent: 'center', gap: '20px', flexWrap: 'wrap', mb: '100px' }}>
@@ -73,42 +85,54 @@ function OurTeam() {
                     <Typography variant="h6" sx={{ mb: '5px' }}>
                         Jesse Depp
                     </Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Founder & CEO</Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        Founder & CEO
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/2.png" sx={{ mb: '15px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h6" sx={{ mb: '5px' }}>
                         Margareth Carter
                     </Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>COO</Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        COO
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/3.png" sx={{ mb: '15px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h6" sx={{ mb: '5px' }}>
                         Andrew Taggart
                     </Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Developer</Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        Developer
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/4.png" sx={{ mb: '15px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h6" sx={{ mb: '5px' }}>
                         Grace Marie
                     </Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Manager</Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        Manager
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/5.png" sx={{ mb: '15px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h6" sx={{ mb: '5px' }}>
                         Conter Spell
                     </Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Senior Designer</Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        Senior Designer
+                    </Typography>
                 </Box>
                 <Box>
                     <Box component="img" src="/team/6.png" sx={{ mb: '15px', width: '100%', height: 'auto', maxWidth: '364px' }}></Box>
                     <Typography variant="h6" sx={{ mb: '5px' }}>
                         Messi Muerto
                     </Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>Marketer</Typography>
+                    <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                        Marketer
+                    </Typography>
                 </Box>
             </Box>
         </Box>

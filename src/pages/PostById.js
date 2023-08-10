@@ -22,15 +22,15 @@ function PostById({ posts }) {
             >
                 <Box component="img" src={relatedPost.mainImage} sx={{ width: '100%', height: 'auto', mb: '25px' }}></Box>
                 <Box>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '10px' }}>{relatedPost.article}</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5', mb: '10px' }}>
+                        {relatedPost.article}
+                    </Typography>
                     <Typography variant="h3" sx={{ mb: '5px', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '1', WebkitBoxOrient: 'vertical' }}>
                         {relatedPost.title}
                     </Typography>
                     <Typography
+                        variant="p1"
                         sx={{
-                            fontSize: '18px',
-                            fontWeight: '500',
-                            lineHeight: '180%',
                             color: '#AFADB5',
                             mb: '15px',
                             overflow: 'hidden',
@@ -44,8 +44,10 @@ function PostById({ posts }) {
                     </Typography>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <Avatar src={relatedPost.avatar} style={{ width: '28px', height: '28px' }}></Avatar>
-                        <Typography variant="h6">By {relatedPost.fullName}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{relatedPost.date}</Typography>
+                        <Typography variant="h6Plus">By {relatedPost.fullName}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                            {relatedPost.date}
+                        </Typography>
                     </Box>
                 </Box>
             </Box>
@@ -57,15 +59,15 @@ function PostById({ posts }) {
             >
                 <Box component="img" src={relatedPost.mainImage} sx={{ width: '100%', height: 'auto', mb: '15px' }}></Box>
                 <Box>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '5px' }}>{relatedPost.article}</Typography>
-                    <Typography variant="h6" sx={{ mb: '5px', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical' }}>
+                    <Typography variant="p4" sx={{ color: '#AFADB5', mb: '5px' }}>
+                        {relatedPost.article}
+                    </Typography>
+                    <Typography variant="h6Plus" sx={{ mb: '5px', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical' }}>
                         {relatedPost.title}
                     </Typography>
                     <Typography
+                        variant="p4"
                         sx={{
-                            fontSize: '12px',
-                            fontWeight: '500',
-                            lineHeight: '180%',
                             color: '#AFADB5',
                             mb: '15px',
                             overflow: 'hidden',
@@ -79,8 +81,12 @@ function PostById({ posts }) {
                     </Typography>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                         <Avatar src={relatedPost.avatar} style={{ width: '20px', height: '20px' }}></Avatar>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#151411' }}>By {relatedPost.fullName}</Typography>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{relatedPost.date}</Typography>
+                        <Typography variant="p4" sx={{ color: '#151411' }}>
+                            By {relatedPost.fullName}
+                        </Typography>
+                        <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                            {relatedPost.date}
+                        </Typography>
                     </Box>
                 </Box>
             </Box>
@@ -95,18 +101,22 @@ function PostById({ posts }) {
                         <Typography variant="h1" sx={{ mb: '20px' }}>
                             {post.title}
                         </Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '50px' }}>{post.mainText}</Typography>
+                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '50px' }}>
+                            {post.mainText}
+                        </Typography>
                         <Box component="img" src={post.mainImage} sx={{ width: '100%', height: 'auto' }}></Box>
                     </Box>
                     <Box sx={{ columnCount: 2, columnGap: '30px', mb: '50px' }}>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '30px' }}>{post.additionalInfo.firstText}</Typography>
+                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '30px' }}>
+                            {post.additionalInfo.firstText}
+                        </Typography>
                         <Box component="img" src={post.additionalInfo.firstImage} sx={{ width: '100%', height: 'auto' }}></Box>
                     </Box>
                     <Box>
                         <Typography variant="h3" sx={{ mb: '15px' }}>
                             {post.additionalInfo.firstTitle}
                         </Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '50px', columnCount: 2, columnGap: '30px' }}>
+                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '50px', columnCount: 2, columnGap: '30px' }}>
                             {post.additionalInfo.firstText}
                         </Typography>
                         <Box component="img" src={post.additionalInfo.secondImage} sx={{ width: '100%', height: 'auto', mb: '50px' }}></Box>
@@ -115,7 +125,9 @@ function PostById({ posts }) {
                         <Typography variant="h3" sx={{ mb: '15px' }}>
                             {post.additionalInfo.secondTitle}
                         </Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', columnCount: 2, columnGap: '30px' }}>{post.additionalInfo.secondText}</Typography>
+                        <Typography variant="p1" sx={{ color: '#AFADB5', columnCount: 2, columnGap: '30px' }}>
+                            {post.additionalInfo.secondText}
+                        </Typography>
                     </Box>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column' }}>
@@ -123,25 +135,33 @@ function PostById({ posts }) {
                         <Typography variant="h3" sx={{ mb: '20px' }}>
                             {post.title}
                         </Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '30px' }}>{post.mainText}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5', mb: '30px' }}>
+                            {post.mainText}
+                        </Typography>
                         <Box component="img" src={post.mainImage} sx={{ width: '100%', height: 'auto' }}></Box>
                     </Box>
                     <Box sx={{ mb: '20px' }}>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '20px' }}>{post.additionalInfo.firstText}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5', mb: '20px' }}>
+                            {post.additionalInfo.firstText}
+                        </Typography>
                         <Box component="img" src={post.additionalInfo.firstImage} sx={{ width: '100%', height: 'auto' }}></Box>
                     </Box>
                     <Box>
                         <Typography variant="h6" sx={{ mb: '6px' }}>
                             {post.additionalInfo.firstTitle}
                         </Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '30px' }}>{post.additionalInfo.firstText}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5', mb: '30px' }}>
+                            {post.additionalInfo.firstText}
+                        </Typography>
                         <Box component="img" src={post.additionalInfo.secondImage} sx={{ width: '100%', height: 'auto', mb: '30px' }}></Box>
                     </Box>
                     <Box sx={{ mb: '80px' }}>
                         <Typography variant="h6" sx={{ mb: '5px' }}>
                             {post.additionalInfo.secondTitle}
                         </Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{post.additionalInfo.secondText}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                            {post.additionalInfo.secondText}
+                        </Typography>
                     </Box>
                 </Box>
                 <Box>
@@ -162,7 +182,7 @@ function PostById({ posts }) {
                 </Box>
                 <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', alignItems: 'center', m: '80px 0' }}>
                     <Typography variant="h2">Subscribe our newsletter</Typography>
-                    <Button variant="contained" sx={{ maxHeight: '50px', fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
+                    <Button variant="contained" sx={{ maxHeight: '50px', fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
                         let's Talk &#10132;
                     </Button>
                 </Box>
@@ -170,7 +190,7 @@ function PostById({ posts }) {
                     <Typography variant="h3" sx={{ mb: '20px' }}>
                         Subscribe our newsletter
                     </Typography>
-                    <Button variant="contained" sx={{ fontSize: '14px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
+                    <Button variant="contained" sx={{ fontSize: '14px', fontFamily: "'Eudoxus Sans',sans-serif", color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
                         let's Talk &#10132;
                     </Button>
                 </Box>

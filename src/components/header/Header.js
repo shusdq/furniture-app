@@ -64,7 +64,6 @@ function ResponsiveAppBar() {
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
-                            fontWeight: 700,
                             color: 'inherit',
                             cursor: 'pointer',
                         }}
@@ -96,7 +95,7 @@ function ResponsiveAppBar() {
                         >
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography
-                                    textAlign="center"
+                                    variant="p1"
                                     onClick={() => {
                                         navigate('/products');
                                     }}
@@ -106,7 +105,7 @@ function ResponsiveAppBar() {
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography
-                                    textAlign="center"
+                                    variant="p1"
                                     onClick={() => {
                                         navigate('/services');
                                     }}
@@ -116,7 +115,7 @@ function ResponsiveAppBar() {
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography
-                                    textAlign="center"
+                                    variant="p1"
                                     onClick={() => {
                                         navigate('/article');
                                     }}
@@ -126,7 +125,7 @@ function ResponsiveAppBar() {
                             </MenuItem>
                             <MenuItem onClick={handleCloseNavMenu}>
                                 <Typography
-                                    textAlign="center"
+                                    variant="p1"
                                     onClick={() => {
                                         navigate('/about');
                                     }}
@@ -158,7 +157,6 @@ function ResponsiveAppBar() {
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
                             flexGrow: 1,
-                            fontWeight: 700,
                             color: 'inherit',
                             cursor: 'pointer',
                         }}
@@ -170,10 +168,11 @@ function ResponsiveAppBar() {
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'center', gap: '50px' } }}>
                         <Button
+                            variant="text"
                             onClick={() => {
                                 navigate('/products');
                             }}
-                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                            sx={{ my: 2, fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', color: '#151411', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
                         >
                             Products
                         </Button>
@@ -182,7 +181,7 @@ function ResponsiveAppBar() {
                             onClick={() => {
                                 navigate('/services');
                             }}
-                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                            sx={{ my: 2, fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', color: '#151411', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
                         >
                             Services
                         </Button>
@@ -190,7 +189,7 @@ function ResponsiveAppBar() {
                             onClick={() => {
                                 navigate('/article');
                             }}
-                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                            sx={{ my: 2, fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', color: '#151411', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
                         >
                             Article
                         </Button>
@@ -198,7 +197,7 @@ function ResponsiveAppBar() {
                             onClick={() => {
                                 navigate('/about');
                             }}
-                            sx={{ my: 2, fontSize: '18px', color: 'black', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
+                            sx={{ my: 2, fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', color: '#151411', fontWeight: '500', display: 'block', textTransform: 'capitalize' }}
                         >
                             About Us
                         </Button>

@@ -5,8 +5,8 @@ function DiscoverFurniture() {
     return (
         <Container>
             <Box sx={{ textAlign: 'center' }}>
-                <Box sx={{ display: { xs: 'none', md: 'flex' }, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '30px', margin: '100px 0 50px' }}>
-                    <Typography variant="h1" sx={{ position: 'relative', maxWidth: '730px', lineHeight: '130%' }}>
+                <Box sx={{ display: { xs: 'none', md: 'flex' } }} flexDirection="column" justifyContent="center" alignItems="center" gap="30px" m="100px 0 50px">
+                    <Typography variant="h1" sx={{ position: 'relative', maxWidth: '730px' }}>
                         Discover Furniture With High Quality Wood
                         <SvgIcon sx={{ position: 'absolute', top: '71px', left: '-210px', animation: 'pulse 2s infinite' }} style={{ width: '327', height: '327' }}>
                             <svg width="327" height="327" viewBox="0 0 327 327" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -15,8 +15,8 @@ function DiscoverFurniture() {
                                         id="Vector"
                                         d="M175.772 245.176C183.833 244.316 194.661 242.923 202.368 240.73M202.368 240.73C203.256 240.477 199.476 234.67 199.28 234.417C194.966 228.863 190.059 224.044 184.952 219.239M202.368 240.73C158.606 235.673 127.02 204.269 126.302 172.87C126.23 169.758 126.156 166.371 126.383 162.992M126.383 162.992C126.746 157.61 127.873 152.249 130.997 148.052C133.881 144.179 139.268 140.348 144.28 140.983C153.642 142.17 156.341 154.392 149.984 160.897C144.398 166.613 132.668 167.79 126.383 162.992ZM126.383 162.992C126.251 162.89 126.121 162.787 125.993 162.68C95.1909 136.963 112.891 93.2305 141.789 77.64"
                                         stroke="#A6D8D2"
-                                        strokeWidth="5" // Fix the attribute name to strokeWidth
-                                        strokeMiterlimit="1.5" // Also change other kebab-case attributes if needed
+                                        strokeWidth="5"
+                                        strokeMiterlimit="1.5"
                                         strokeLinecap="round"
                                         strokeLinejoin="round"
                                     />
@@ -113,7 +113,7 @@ function DiscoverFurniture() {
                             </svg>
                         </SvgIcon>
                     </Typography>
-                    <Typography sx={{ color: '#AFADB5', maxWidth: '750px', lineHeight: '180%', fontWeight: '500' }}>
+                    <Typography variant="p1" sx={{ color: '#AFADB5', maxWidth: '750px' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt
                         aliquam adipiscing tempor.
                     </Typography>
@@ -128,7 +128,10 @@ function DiscoverFurniture() {
                         InputProps={{
                             endAdornment: (
                                 <InputAdornment position="end">
-                                    <Button variant="contained" sx={{ borderRadius: '0', fontWeight: '700', color: '#fff', fontSize: '18px', textTransform: 'capitalize' }}>
+                                    <Button
+                                        variant="contained"
+                                        sx={{ borderRadius: '0', fontFamily: "'Eudoxus Sans',sans-serif", fontWeight: '700', color: '#fff', fontSize: '18px', textTransform: 'capitalize' }}
+                                    >
                                         Search
                                     </Button>
                                 </InputAdornment>
@@ -138,7 +141,7 @@ function DiscoverFurniture() {
                     <Box component="img" src="/images/rectangle.png" sx={{ width: '100%', height: 'auto', position: 'absolute', top: '35px', left: '0', zIndex: '-1' }}></Box>
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: '30px', margin: '50px 0 30px' }}>
-                    <Typography variant="h3" sx={{ position: 'relative', maxWidth: '730px', lineHeight: '130%' }}>
+                    <Typography variant="h3" sx={{ position: 'relative', maxWidth: '730px' }}>
                         Discover Furniture With High Quality Wood
                         <SvgIcon sx={{ position: 'absolute', top: '-52px', left: '-76px', animation: 'pulse 2s infinite' }} style={{ width: '150', height: '150' }}>
                             <svg width="327" height="327" viewBox="0 0 327 327" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -245,7 +248,7 @@ function DiscoverFurniture() {
                             </svg>
                         </SvgIcon>
                     </Typography>
-                    <Typography sx={{ color: '#AFADB5', maxWidth: '750px', lineHeight: '180%', fontWeight: '500', fontSize: '14px' }}>
+                    <Typography variant="p3" sx={{ color: '#AFADB5', maxWidth: '750px' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus parturient viverra nunc, tortor sit laoreet. Quam tincidunt
                         aliquam adipiscing tempor.
                     </Typography>
@@ -256,11 +259,14 @@ function DiscoverFurniture() {
                         id="outlined-start-adornment"
                         fullWidth
                         variant="filled"
-                        sx={{ background: '#FFFFFF' }}
+                        sx={{ background: '#fff' }}
                         InputProps={{
                             endAdornment: (
                                 <InputAdornment position="end">
-                                    <Button variant="contained" sx={{ borderRadius: '0', fontWeight: '700', color: '#fff', fontSize: '18px', textTransform: 'capitalize' }}>
+                                    <Button
+                                        variant="contained"
+                                        sx={{ borderRadius: '0', fontFamily: "'Eudoxus Sans',sans-serif", fontWeight: '700', color: '#fff', fontSize: '14px', textTransform: 'capitalize' }}
+                                    >
                                         Search
                                     </Button>
                                 </InputAdornment>

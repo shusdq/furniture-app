@@ -21,10 +21,8 @@ function ProductItem({ product }) {
                     {product.title}
                 </Typography>
                 <Typography
+                    variant="p1"
                     sx={{
-                        fontSize: '18px',
-                        fontWeight: '500',
-                        lineHeight: '180%',
                         mb: '18px',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
@@ -39,26 +37,30 @@ function ProductItem({ product }) {
             </Box>
             <Box sx={{ display: { xs: 'flex', md: 'none' }, flexDirection: 'column', maxWidth: '300px' }}>
                 <Box component="img" src={product.img} sx={{ height: 'auto', width: '100%', mb: '14px' }}></Box>
-                <Typography sx={{ fontSize: '12px', fontWeight: '700', lineHeight: '180%', color: '#AFADB5', textTransform: 'capitalize', mb: '6px' }}>{product.name}</Typography>
-                <Typography variant="h6" sx={{ textTransform: 'capitalize', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '1', WebkitBoxOrient: 'vertical' }}>
+                <Typography variant="l4" sx={{ color: '#AFADB5', textTransform: 'capitalize', mb: '6px' }}>
+                    {product.name}
+                </Typography>
+                <Typography
+                    variant="h6Plus"
+                    sx={{ textTransform: 'capitalize', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '1', WebkitBoxOrient: 'vertical' }}
+                >
                     {product.title}
                 </Typography>
                 <Typography
+                    variant="p4"
                     sx={{
-                        fontSize: '12px',
-                        fontWeight: '500',
-                        lineHeight: '180%',
                         mb: '12px',
                         overflow: 'hidden',
                         textOverflow: 'ellipsis',
                         display: '-webkit-box',
                         WebkitLineClamp: '2',
                         WebkitBoxOrient: 'vertical',
+                        color: '#AFADB5',
                     }}
                 >
                     {product.description}
                 </Typography>
-                <Typography variant="h6">{product.price} $</Typography>
+                <Typography variant="h6Plus">{product.price} $</Typography>
             </Box>
         </Box>
     );

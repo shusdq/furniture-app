@@ -48,7 +48,9 @@ function Products({ products }) {
                             {product.name}
                         </Typography>
                         <Typography variant="h3">{product.title}</Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.description}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                            {product.description}
+                        </Typography>
                         <Typography variant="h3">${product.price}</Typography>
                     </Box>
                 </Box>
@@ -71,10 +73,18 @@ function Products({ products }) {
                 >
                     <Box component="img" src={product.img} sx={{ width: '100%', height: 'auto', mb: '10px', cursor: 'pointer' }}></Box>
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.name}</Typography>
-                        <Typography variant="h6">{product.title}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{product.description}</Typography>
-                        <Typography variant="h6">${product.price}</Typography>
+                        <Typography variant="p4" sx={{ fontWeight: '700', color: '#AFADB5' }}>
+                            {product.name}
+                        </Typography>
+                        <Typography variant="p2" sx={{ fontWeight: '700' }}>
+                            {product.title}
+                        </Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                            {product.description}
+                        </Typography>
+                        <Typography variant="p2" sx={{ fontWeight: '700' }}>
+                            ${product.price}
+                        </Typography>
                     </Box>
                 </Box>
             </Box>
@@ -83,21 +93,25 @@ function Products({ products }) {
     return (
         <Container>
             <Box sx={{ display: 'flex', flexDirection: 'column' }}>
-                <Box sx={{ textAlign: 'center', display: { xs: 'none', md: 'flex' }, justifyContent: 'center', flexDirection: 'column', gap: '25px', mb: '50px' }}>
-                    <Typography variant="h5" sx={{ color: 'secondary.dark' }}>
+                <Box sx={{ textAlign: 'center', display: { xs: 'none', md: 'flex' }, justifyContent: 'center', flexDirection: 'column', mb: '50px' }}>
+                    <Typography variant="h5" sx={{ color: 'secondary.dark', mb: '15px' }}>
                         Product
                     </Typography>
-                    <Typography variant="h2">Our popular product</Typography>
-                    <Typography sx={{ color: '#AFADB5', fontSize: '18px', fontWeight: '500', lineHeight: '180%' }}>
+                    <Typography variant="h2" mb="30px">
+                        Our popular product
+                    </Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                     </Typography>
                 </Box>
                 <Box sx={{ textAlign: 'center', display: { xs: 'flex', md: 'none' }, justifyContent: 'center', flexDirection: 'column', gap: '15px', mb: '30px' }}>
-                    <Typography variant="h6" sx={{ color: 'secondary.dark' }}>
+                    <Typography variant="h6Plus" sx={{ color: 'secondary.dark', mb: '8px' }}>
                         Product
                     </Typography>
-                    <Typography variant="h3">Our popular product</Typography>
-                    <Typography sx={{ color: '#AFADB5', fontSize: '14px', fontWeight: '500', lineHeight: '180%' }}>
+                    <Typography variant="h3" mb="15px">
+                        Our popular product
+                    </Typography>
+                    <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                     </Typography>
                 </Box>

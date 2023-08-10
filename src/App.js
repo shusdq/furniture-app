@@ -9,7 +9,7 @@ import AboutUs from './pages/AboutUs';
 import Article from './pages/Article';
 import PostById from './pages/PostById';
 import { useGetPostsQuery, useGetProductsQuery } from './store/features/databaseApi';
-import ScrollToTop from './utils/ScrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 import Cart from './pages/Cart';
 import Loader from './components/Loader';
 

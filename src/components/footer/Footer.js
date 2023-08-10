@@ -42,7 +42,7 @@ function Footer() {
                             Lalasia
                         </Typography>
                     </Box>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', color: '#151411', maxWidth: '500px' }}>
+                    <Typography variant="p1" sx={{ display: 'flex', maxWidth: '500px' }}>
                         Lalasia is digital agency that help you make better experience iaculis cras in.
                     </Typography>
                 </Box>
@@ -51,16 +51,16 @@ function Footer() {
                         <Typography variant="h4" sx={{ mb: '8px' }}>
                             Product
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             New Arrivals
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Best Selling
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Home Decor
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Kitchen Set
                         </Typography>
                     </Box>
@@ -68,16 +68,16 @@ function Footer() {
                         <Typography variant="h4" sx={{ mb: '8px' }}>
                             Services
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Catalog
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Blog
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             FaQ
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Pricing
                         </Typography>
                     </Box>
@@ -85,13 +85,13 @@ function Footer() {
                         <Typography variant="h4" sx={{ mb: '8px' }}>
                             Follow Us
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Facebook
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Instagram
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '18px', fontWeight: '500', color: '#141411', textDecoration: 'none' }}>
+                        <Typography component="a" href="/" variant="p1" sx={{ textDecoration: 'none' }}>
                             Twitter
                         </Typography>
                     </Box>
@@ -133,7 +133,7 @@ function Footer() {
                             Lalasia
                         </Typography>
                     </Box>
-                    <Typography sx={{ fontSize: '14px', fontWeight: '500', maxWidth: '320px', color: '#AFADB5' }}>
+                    <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                         Lalasia is digital agency that help you make better experience iaculis cras in.
                     </Typography>
                 </Box>
@@ -142,16 +142,16 @@ function Footer() {
                         <Typography variant="h6" sx={{ mb: '8px' }}>
                             Product
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             New Arrivals
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Best Selling
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Home Decor
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Kitchen Set
                         </Typography>
                     </Box>
@@ -159,16 +159,16 @@ function Footer() {
                         <Typography variant="h6" sx={{ mb: '8px' }}>
                             Services
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Catalog
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Blog
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             FaQ
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Pricing
                         </Typography>
                     </Box>
@@ -176,13 +176,13 @@ function Footer() {
                         <Typography variant="h6" sx={{ mb: '8px' }}>
                             Follow Us
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Facebook
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Instagram
                         </Typography>
-                        <Typography component="a" href="/" sx={{ fontSize: '14px', fontWeight: '500', textDecoration: 'none', color: '#AFADB5' }}>
+                        <Typography component="a" href="/" variant="p3" sx={{ textDecoration: 'none', color: '#AFADB5' }}>
                             Twitter
                         </Typography>
                     </Box>

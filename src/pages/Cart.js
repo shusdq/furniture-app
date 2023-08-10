@@ -29,16 +29,16 @@ function Cart() {
                 </Typography>
                 <ButtonGroup variant="outlined" aria-label="outlined button group" sx={{ flex: '0.2', height: '40px' }}>
                     <Button
-                        sx={{ fontSize: '18px' }}
+                        sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px' }}
                         onClick={() => {
                             dispatch(decrementQuantity(item.id));
                         }}
                     >
                         -
                     </Button>
-                    <Button sx={{ fontSize: '18px', cursor: 'auto' }}>{item.quantity}</Button>
+                    <Button sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', cursor: 'auto' }}>{item.quantity}</Button>
                     <Button
-                        sx={{ fontSize: '18px' }}
+                        sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px' }}
                         onClick={() => {
                             dispatch(incrementQuantity(item.id));
                         }}
@@ -49,7 +49,7 @@ function Cart() {
                 <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flex: '0.2' }}>
                     <Typography variant="h5">${Number((item.price * item.quantity).toFixed(2))}</Typography>
                     <Button
-                        sx={{ fontSize: '20px' }}
+                        sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '20px' }}
                         onClick={() => {
                             dispatch(removeItem(item.id));
                         }}
@@ -70,7 +70,7 @@ function Cart() {
                         <Typography variant="h5">{item.title}</Typography>
                     </Box>
                     <Button
-                        sx={{ fontSize: '20px', alignItems: 'flex-start', p: '0' }}
+                        sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '20px', alignItems: 'flex-start', p: '0' }}
                         onClick={() => {
                             dispatch(removeItem(item.id));
                         }}
@@ -81,16 +81,16 @@ function Cart() {
                 <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
                     <ButtonGroup variant="outlined" aria-label="outlined button group" sx={{ height: '40px' }}>
                         <Button
-                            sx={{ fontSize: '18px' }}
+                            sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px' }}
                             onClick={() => {
                                 dispatch(decrementQuantity(item.id));
                             }}
                         >
                             -
                         </Button>
-                        <Button sx={{ fontSize: '18px', cursor: 'auto' }}>{item.quantity}</Button>
+                        <Button sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', cursor: 'auto' }}>{item.quantity}</Button>
                         <Button
-                            sx={{ fontSize: '18px' }}
+                            sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px' }}
                             onClick={() => {
                                 dispatch(incrementQuantity(item.id));
                             }}

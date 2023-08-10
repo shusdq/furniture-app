@@ -4,14 +4,17 @@ import React from 'react';
 function Benefits() {
     return (
         <Container>
-            <Typography sx={{ color: 'secondary.dark', mb: '10px' }} variant="h5">
+            <Typography variant="h5" sx={{ display: { xs: 'none', md: 'flex' }, color: 'secondary.dark', mb: '10px' }}>
+                Benefits
+            </Typography>
+            <Typography variant="h6Plus" sx={{ display: { xs: 'flex', md: 'none' }, color: 'secondary.dark', mb: '10px' }}>
                 Benefits
             </Typography>
             <Box sx={{ display: { xs: 'none', md: 'flex' }, flex: '1', mb: '70px', justifyContent: 'space-between' }}>
                 <Typography variant="h2" sx={{ flex: '0.4' }}>
                     Benefits when using our services
                 </Typography>
-                <Typography sx={{ flex: '0.44', fontWeight: '500', fontSize: '18px', color: '#AFADB5', lineHeight: '180%' }}>
+                <Typography variant="p1" sx={{ flex: '0.44', color: '#AFADB5' }}>
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                 </Typography>
             </Box>
@@ -48,7 +51,7 @@ function Benefits() {
                         </svg>
                     </SvgIcon>
                     <Typography variant="h3">Many Choices</Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                     </Typography>
                 </Box>
@@ -84,7 +87,7 @@ function Benefits() {
                         </svg>
                     </SvgIcon>
                     <Typography variant="h3">Fast and On Time</Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                     </Typography>
                 </Box>
@@ -112,14 +115,14 @@ function Benefits() {
                         </svg>
                     </SvgIcon>
                     <Typography variant="h3">Affordable Price</Typography>
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                    <Typography variant="p1" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                     </Typography>
                 </Box>
             </Box>
             <Box sx={{ display: { xs: 'flex', md: 'none' }, flexWrap: 'wrap', gap: '20px', mb: '50px', justifyContent: 'space-between' }}>
                 <Typography variant="h3">Benefits when using our services</Typography>
-                <Typography sx={{ fontWeight: '500', fontSize: '14px', color: '#AFADB5', lineHeight: '180%' }}>
+                <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus parturient.
                 </Typography>
             </Box>
@@ -158,7 +161,7 @@ function Benefits() {
                         </svg>
                     </SvgIcon> */}
                     <Typography variant="h6">Many Choices</Typography>
-                    <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                    <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                     </Typography>
                 </Box>
@@ -195,7 +198,7 @@ function Benefits() {
                         </svg>
                     </SvgIcon> */}
                     <Typography variant="h6">Fast and On Time</Typography>
-                    <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                    <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                     </Typography>
                 </Box>
@@ -224,7 +227,7 @@ function Benefits() {
                         </svg>
                     </SvgIcon> */}
                     <Typography variant="h6">Affordable Price</Typography>
-                    <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                    <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                         Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                     </Typography>
                 </Box>

@@ -15,7 +15,7 @@ function Article({ posts }) {
                         <Typography variant="h1" sx={{ m: '100px 0 20px' }}>
                             Article
                         </Typography>
-                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                        <Typography variant="p1" sx={{ color: '#AFADB5' }}>
                             We display products based on the latest products we have, if you want
                             <br /> to see our old products please enter the name of the item
                         </Typography>
@@ -24,7 +24,7 @@ function Article({ posts }) {
                         <Typography variant="h3" sx={{ m: '50px 0 20px' }}>
                             Article
                         </Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>
+                        <Typography variant="p3" sx={{ color: '#AFADB5' }}>
                             We display products based on the latest products we have, if you want to see our old products please enter the name of the item
                         </Typography>
                     </Box>

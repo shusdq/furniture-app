@@ -54,15 +54,21 @@ function Topics({ posts }) {
                                 >
                                     <Box component="img" src={item.mainImage} sx={{ width: '100%', height: 'auto', maxWidth: '210px' }}></Box>
                                     <Box>
-                                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '10px' }}>{item.article}</Typography>
+                                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '10px' }}>
+                                            {item.article}
+                                        </Typography>
                                         <Typography variant="h3" sx={{ mb: '15px' }}>
                                             {item.title}
                                         </Typography>
-                                        <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '15px' }}>{item.mainText}</Typography>
+                                        <Typography variant="p1" sx={{ color: '#AFADB5', mb: '15px' }}>
+                                            {item.mainText}
+                                        </Typography>
                                         <Box sx={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                                             <Avatar src={item.avatar}></Avatar>
-                                            <Typography variant="h6">{item.fullName}</Typography>
-                                            <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{item.date}</Typography>
+                                            <Typography variant="h6Plus">{item.fullName}</Typography>
+                                            <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                                                {item.date}
+                                            </Typography>
                                         </Box>
                                     </Box>
                                 </Box>
@@ -81,9 +87,11 @@ function Topics({ posts }) {
                                 >
                                     <Box component="img" src={item.mainImage} sx={{ width: '100%', height: 'auto', maxWidth: '110px' }}></Box>
                                     <Box>
-                                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '5px' }}>{item.article}</Typography>
+                                        <Typography variant="p4" sx={{ color: '#AFADB5', mb: '5px' }}>
+                                            {item.article}
+                                        </Typography>
                                         <Typography
-                                            variant="h6"
+                                            variant="h6Plus"
                                             sx={{ mb: '10px', overflow: 'hidden', textOverflow: 'ellipsis', display: '-webkit-box', WebkitLineClamp: '2', WebkitBoxOrient: 'vertical' }}
                                         >
                                             {item.title}
@@ -91,7 +99,7 @@ function Topics({ posts }) {
 
                                         <Box sx={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
                                             <Avatar src={item.avatar} style={{ width: '18px', height: '18px' }}></Avatar>
-                                            <Typography sx={{ fontSize: '12px', fontWeight: '700', lineHeight: '180%' }}>{item.fullName}</Typography>
+                                            <Typography variant="l4">{item.fullName}</Typography>
                                         </Box>
                                     </Box>
                                 </Box>
@@ -115,7 +123,15 @@ function Topics({ posts }) {
                         <Button
                             variant="outlined"
                             onClick={handleLoadMore}
-                            sx={{ border: '1.5px solid #f3f3f3', borderRadius: '0', color: '#151411', textTransform: 'capitalize', fontSize: '18px', fontWeight: '700' }}
+                            sx={{
+                                border: '1.5px solid #f3f3f3',
+                                fontFamily: "'Eudoxus Sans',sans-serif",
+                                borderRadius: '0',
+                                color: '#151411',
+                                textTransform: 'capitalize',
+                                fontSize: '18px',
+                                fontWeight: '700',
+                            }}
                         >
                             Load More
                         </Button>
@@ -124,7 +140,7 @@ function Topics({ posts }) {
             )}
             <Box sx={{ display: { xs: 'none', md: 'flex' }, justifyContent: 'space-between', alignItems: 'center', m: '80px 0' }}>
                 <Typography variant="h2">Subscribe our newsletter</Typography>
-                <Button variant="contained" sx={{ maxHeight: '50px', fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
+                <Button variant="contained" sx={{ maxHeight: '50px', fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '18px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
                     let's Talk &#10132;
                 </Button>
             </Box>
@@ -132,7 +148,7 @@ function Topics({ posts }) {
                 <Typography variant="h3" sx={{ mb: '20px' }}>
                     Subscribe our newsletter
                 </Typography>
-                <Button variant="contained" sx={{ fontSize: '14px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
+                <Button variant="contained" sx={{ fontFamily: "'Eudoxus Sans',sans-serif", fontSize: '14px', color: '#ffffff', borderRadius: '0', textTransform: 'capitalize' }}>
                     let's Talk &#10132;
                 </Button>
             </Box>

@@ -46,14 +46,18 @@ function ArticleCarousel({ posts }) {
                         left: '0',
                     }}
                 >
-                    <Typography sx={{ fontSize: '18px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '10px' }}>{post.article}</Typography>
+                    <Typography variant="p1" sx={{ color: '#AFADB5', mb: '10px' }}>
+                        {post.article}
+                    </Typography>
                     <Typography variant="h3" sx={{ mb: '15px' }}>
                         {post.title}
                     </Typography>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
                         <Avatar src={post.avatar} style={{ width: '28px', height: '28px' }}></Avatar>
-                        <Typography variant="h6">By {post.fullName}</Typography>
-                        <Typography sx={{ fontSize: '14px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{post.date}</Typography>
+                        <Typography variant="h6Plus">By {post.fullName}</Typography>
+                        <Typography variant="p3" sx={{ color: '#AFADB5' }}>
+                            {post.date}
+                        </Typography>
                     </Box>
                 </Box>
             </Box>
@@ -80,14 +84,20 @@ function ArticleCarousel({ posts }) {
                         whiteSpace: 'nowrap',
                     }}
                 >
-                    <Typography sx={{ fontSize: '10px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5', mb: '5px' }}>{post.article}</Typography>
-                    <Typography variant="h6" sx={{ mb: '10px' }}>
+                    <Typography variant="p4" sx={{ color: '#AFADB5', mb: '5px' }}>
+                        {post.article}
+                    </Typography>
+                    <Typography variant="h6Plus" sx={{ mb: '10px' }}>
                         {post.title}
                     </Typography>
                     <Box sx={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
                         <Avatar src={post.avatar} style={{ width: '20px', height: '20px' }}></Avatar>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '700', lineHeight: '180%', color: '#151411' }}>By {post.fullName}</Typography>
-                        <Typography sx={{ fontSize: '12px', fontWeight: '500', lineHeight: '180%', color: '#AFADB5' }}>{post.date}</Typography>
+                        <Typography variant="l4" sx={{ color: '#151411' }}>
+                            By {post.fullName}
+                        </Typography>
+                        <Typography variant="p4" sx={{ color: '#AFADB5' }}>
+                            {post.date}
+                        </Typography>
                     </Box>
                 </Box>
             </Box>

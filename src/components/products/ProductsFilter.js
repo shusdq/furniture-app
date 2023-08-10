@@ -28,7 +28,9 @@ function ProductsFilter({ products, filter, setFilter }) {
                 </Box>
                 <Box sx={{ display: { xs: 'flex', md: 'none' }, alignItems: 'center', gap: '16px' }}>
                     <Typography variant="h5">Total Product</Typography>
-                    <Typography sx={{ fontSize: '12px', fontWeight: '700', lineHeight: '180%', color: '#518581' }}>132</Typography>
+                    <Typography variant="l4" sx={{ color: '#518581' }}>
+                        {products.length}
+                    </Typography>
                 </Box>
                 <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', gap: '12px' }}>
                     <SvgIcon>
